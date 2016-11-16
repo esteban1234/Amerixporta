@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    /*background-color: rgb(42, 31, 88);*/
+    background-color: rgb(242, 239, 230);
+    -webkit-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
+    -moz-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
+    box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
+}
+
+.logo {
+    /*outline: 2px red solid;*/
+    width: 65%;
+    overflow: hidden;
+    /*text-align: center;*/
+    margin: auto;
+    /*max-width: 1000px;*/
+}
+
+.logofigure {
+    /*outline: 2px green solid;*/
+    width: 20%;
+    height: 150px;
+    margin-left: 26%;
+    /*margin: 0 auto;*/
+    margin-bottom: 1%;
+}
+
+.contenedor {
+    /*outline: 2px green solid;*/
+    width: 65%;
+    border-top: 5px solid #2A1F58;
+    /*max-width: 1000px;*/
+    margin: auto;
+}
+
+.contenedor p {
+    margin-bottom: 40px;
+}
+
+header nav {
+    /*background: #3498db;*/
+    /*outline: 2px red solid;*/
+    /*background-color: rgb(42, 31, 88);*/
+    background: rgb(157, 25, 22);
+    margin-bottom: 10px;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    /*outline: 2px red solid;*/
+    margin-left: 5%;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    /*background: rgb(157, 25, 22);*/
+    background-color: rgb(42, 31, 88);
+}
+
+header nav ul li.active a {
+    /*background: #e95d3c;*/
+    background: rgb(157, 25, 22);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    /*max-width: 1000px;*/
+    width: 65%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
+.menu-fixed ul li a {
+    padding: 15px 20px;
+}
+
+
+/*----------------foooter--------------*/
+
+footer {
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    /*background-color: #b40022;*/
+    /*background-color: rgb(190, 208, 1);*/
+    background: rgb(157, 25, 22);
+}
+
+.piecondos {
+    /*border: 2px red solid;*/
+    width: 100%;
+    /*margin-left: 17%;*/
+    text-align: center;
+    margin-top: 1%;
+}
+
+.dtcdos {
+    /*font-weight: bold;*/
+    /*border: 2px red solid;*/
+    text-align: center;
+    font-size: 18px;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: helvetica;
+    color: white;
+}
+
+.petruspie {
+    font-weight: bold;
+    font-size: 18px;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+
+/*------------------ir-arriba-------------*/
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    /*background: #024959;*/
+    /*background: rgb(190, 208, 1);*/
+    background-color: rgb(42, 31, 88);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
