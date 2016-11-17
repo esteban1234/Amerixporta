@@ -1,49 +1,73 @@
 
 <?php include 'head.php';?>
 
+<article class="banner">
 
-	<header>
-			<div class="logo">
+</article>
 
-				<figure class="logofigure">
-					<img src="../img/AMERIXPORTA.png"   width="350" height="200" alt="">
-				</figure>
+<article class="contindex">
+	<h1 class="productos">Algunos de nuestros productos</h1>
 
-			</div>
-		<div class="contenedor">
-			<nav class="menu">
-				<ul>
-					<li><a href="Index.php"><span class="icon-home"></span>&nbsp;&nbsp;INICIO</a></li>
-					<li><a href="#"><span class="icon-users"></span>&nbsp;&nbsp;QUIENES SOMOS</a></li>
-					<li><a href="#"><span class="icon-suitcase"></span>&nbsp;&nbsp;SERVICIOS</a></li>
-					<li><a href="#"><span class="icon-old-phone"></span>&nbsp;&nbsp;CONTACTO</a></li>
-				</ul>
-			</nav>
-		</div>
+	<article class="contenproduc">
 
-	</header>
+		<article class="productouno">
+			<article class="block">BLOCK</article>
+			<article class="imgblock"></article>
+			<article class="medidas">Medidas</article>
+			<article class="especificaciones">
+			*BLOCK DE 10X20X40 <br>
+			*BLOCK DE 12X20X40 <br>
+			*BLOCK DE 15X20X40 (3 HUECOS) <br>
+			*BLOCK DE 15X20X40 (2 HUECOS) <br>
+			*BLOCK DE 20X20X40
+			</article>
+		</article>
 
+		<article class="productouno">
+			<article class="block">BOVEDILLA</article>
+			<article class="imgbobedilla"></article>
+			<article class="medidas">Medidas</article>
+			<article class="especificaciones">
+			*BOVEDILLA DE 15X20X56 <br>
+			*BOVEDILLA DE 15X25X56 <br>
+			*BOVEDILLA DE 20X25X56 <br>
+			*BOVEDILLA DE 24X25X56 <br>
+			*BOVEDILLA DE 30X25X56
+			</article>
+		</article>
 
+		<article class="productouno">
+			<article class="block">VIGAS PRETENSADAS</article>
+			<article class="imgvigas"></article>
+			<article class="medidas">Medidas</article>
+			<article class="especificaciones">
+			*VIGA 12-3 <br>
+			*VIGA 12-4 <br>
+			*VIGA 12-5 <br>
+			*VIGA 20-5 <br>
+			*VIGA 20-6
+			</article>
+		</article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
+	</article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
+	<article class="boton">
+		 <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Productos</span></a>
+	</article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
+</article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
+<article class="contindexdos">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus, corporis exercitationem a eaque iure animi dolor expedita tempore iste. Dolor, amet officia repellendus unde voluptatum architecto quisquam quod eligendi.</p> <br><br>
+	 <div class="description">
+            <h2 class="description_title">
+               Los mejores productos para la construcción, <br>a los mejores precios!!
+            </h2>
+     </div>
+     <article class="botondos">
+		 <a href="contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
+	</article>
+</article>
 
 
 		<span class="ir-arriba icon-arrow-bold-up"></span>
@@ -53,6 +77,7 @@
     <script type="text/javascript" src="../js/jquery.js"></script>
 	<script src="../js/main.js"></script>
 	<script type="text/javascript" src="../js/iconoarriba.js"></script>
+	<script src="../js/active.js"></script>
 
 </body>
 </html>

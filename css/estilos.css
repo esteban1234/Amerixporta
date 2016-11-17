@@ -8,6 +8,8 @@
 
 header {
     width: 100%;
+    /*border: 2px red solid;*/
+    overflow: hidden;
     /*background-color: rgb(42, 31, 88);*/
     background-color: rgb(242, 239, 230);
     -webkit-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
@@ -80,12 +82,19 @@ header nav ul li a:hover {
     background-color: rgb(42, 31, 88);
 }
 
-header nav ul li.active a {
-    /*background: #e95d3c;*/
+.active {
+    /*text-decoration: underline;*/
+    background-color: rgb(42, 31, 88);
+    /*border-radius: 5px;*/
+    color: #FFF;
+}
+
+
+/*header nav ul li.active a {
     background: rgb(157, 25, 22);
     border-radius: 5px;
     color: #FFF;
-}
+}*/
 
 
 /* --- Clase que agregaremos cuando el usuario haga scroll --- */
@@ -101,6 +110,214 @@ header nav ul li.active a {
 
 .menu-fixed ul li a {
     padding: 15px 20px;
+}
+
+.banner {
+    height: 380px;
+    background: url(../img/materiales.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.contindex {
+    /*border: 2px red solid;*/
+}
+
+.productos {
+    /*border: 2px red solid;*/
+    width: 100%;
+    text-align: center;
+    color: #2A1F58;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1%;
+}
+
+.contenproduc {
+    /*border: 2px red solid;*/
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.productouno {
+    /*border: 2px black solid;*/
+    display: inline-block;
+    margin-left: 2%;
+    background-color: #515a5a;
+    width: 30%;
+    height: 350px;
+}
+
+.productouno {
+    position: relative;
+    transition: transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    -ms-transition: -ms-transform 0.4s;
+    -o-transition: -o-transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+}
+
+.productouno:hover {
+    transform: scale(1, 1) rotate(20deg);
+    -moz-transform: scale(1, 1) rotate(20deg);
+    -o-transform: scale(1, 1) rotate(20deg);
+    -ms-transform: scale(1, 1) rotate(20deg);
+    -webkit-transform: scale(1, 1) rotate(20deg);
+}
+
+.block {
+    /*border: 2px red solid;*/
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.medidas {
+    /*border: 2px red solid;*/
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.especificaciones {
+    /*border: 2px red solid;*/
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.imgblock {
+    width: 100%;
+    height: 150px;
+    background: url(../img/block.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imgbobedilla {
+    width: 100%;
+    height: 150px;
+    background: url(../img/bobedilla.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imgvigas {
+    width: 100%;
+    height: 150px;
+    background: url(../img/vigas.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+/*-------------boton servicios----------*/
+
+.boton {
+    width: 100%;
+    /*border: 2px red solid;*/
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    /*background-color: #f4511e;*/
+    /*background-color: rgb(190, 208, 1);*/
+    background: rgb(157, 25, 22);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*margin: 0 auto;*/
+    margin-top: 2%;
+    margin-left: 42%;
+    margin-bottom: 2%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #2A1F58;
+    color: white;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.contindexdos {
+    position: relative;
+    height: 380px;
+    background: url(../img/materialesdos.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*color: #fff;*/
+    overflow: hidden;
+}
+
+.description {
+    /*width: 30%;*/
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 10%;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.botondos {
+    width: 100%;
+    /*margin-left: %;*/
+    margin-top: 18%;
+    /*border: 2px red solid;*/
 }
 
 
@@ -157,3 +374,141 @@ footer {
     bottom: 20px;
     right: 20px;
 }
+
+
+/**************Inicia Contacto*********************/
+
+.mapa,
+.direccion {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.direccion {
+    width: 38%;
+    margin-left: 0px;
+}
+
+.mapa {
+    margin-right: 0px;
+    width: 55%;
+}
+
+.texto_servicio {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texto-direccion .dir-text,
+.texto-direccion span {
+    text-align: center;
+    display: inline-block;
+}
+
+.texto-direccion .dir-text {
+    width: 85%;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.dir-text div {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.texto-direccion span {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    /*color: rgb(190, 208, 1);*/
+    color: #2A1F58;
+    border-radius: 50%;
+}
+
+.group-input {
+    text-align: center;
+    margin: 10px;
+}
+
+.input-group {
+    display: inline-block;
+    width: 26.5%;
+    text-align: left;
+}
+
+input,
+.label,
+textarea {
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    font-size: 18px;
+    color: #545353;
+}
+
+.enviar {
+    /*background: #31849f;*/
+    /*background-color: rgb(190, 208, 1);*/
+    background-color: #2A1F58;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 15%;
+    text-align: center;
+    margin-left: 145px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #9D1916;
+    color: white;
+}
+
+.input-group input,
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #31849f;
+    font-size: 16px;
+    color: #31849f;
+    padding: 10px;
+}
+
+.group-comentario {
+    margin-top: 15px;
+    text-align: left;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.img-fondo {
+    background-image: url(../img/linea.png);
+    background-position: 0 50%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+}
+
+.contacto {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 21%;
+    margin: 0 auto;
+    font-size: 55px;
+    /*color: rgb(190, 208, 1);*/
+    color: #9D1916;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mapa iframe {
+    width: 600px;
+    height: 450px;
+}
+
+
+/*************Termina contacto***********/

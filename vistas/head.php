@@ -17,4 +17,27 @@
     </head>
 </html>
 <body>
+
+ <header>
+      <div class="logo">
+
+        <figure class="logofigure">
+          <img src="../img/AMERIXPORTA.png"   width="350" height="200" alt="">
+        </figure>
+
+      </div>
+
+    <div class="contenedor">
+      <nav class="menu" >
+        <ul class="nav">
+          <li><a href="index.php"><span class="icon-home"></span>&nbsp;&nbsp;INICIO</a></li>
+          <li><a href="#"><span class="icon-users"></span>&nbsp;&nbsp;QUIENES SOMOS</a></li>
+          <li><a href="#"><span class="icon-suitcase"></span>&nbsp;&nbsp;SERVICIOS</a></li>
+          <li><a href="contacto.php"><span class="icon-old-phone"></span>&nbsp;&nbsp;CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
 </body>
