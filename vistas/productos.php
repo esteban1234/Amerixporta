@@ -70,7 +70,7 @@
 
 		<article class="productocinco">
 			<article class="block">CONCRETO PREMEZCLADO</article>
-			<article class="imgplaca"></article>
+			<article class="imgconcreto"></article>
 			<article class="medidas">Tipos</article>
 			<article class="especificaciones">
 			*Premezclado Estándar <br>
@@ -102,21 +102,6 @@
 
 
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <span class="ir-arriba icon-arrow-bold-up"></span>

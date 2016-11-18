@@ -10,7 +10,6 @@ header {
     width: 100%;
     /*border: 2px red solid;*/
     overflow: hidden;
-    /*background-color: rgb(42, 31, 88);*/
     background-color: rgb(242, 239, 230);
     -webkit-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
     -moz-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
@@ -21,9 +20,7 @@ header {
     /*outline: 2px red solid;*/
     width: 65%;
     overflow: hidden;
-    /*text-align: center;*/
     margin: auto;
-    /*max-width: 1000px;*/
 }
 
 .logofigure {
@@ -31,7 +28,6 @@ header {
     width: 20%;
     height: 150px;
     margin-left: 26%;
-    /*margin: 0 auto;*/
     margin-bottom: 1%;
 }
 
@@ -39,7 +35,6 @@ header {
     /*outline: 2px green solid;*/
     width: 65%;
     border-top: 5px solid #2A1F58;
-    /*max-width: 1000px;*/
     margin: auto;
 }
 
@@ -48,9 +43,7 @@ header {
 }
 
 header nav {
-    /*background: #3498db;*/
     /*outline: 2px red solid;*/
-    /*background-color: rgb(42, 31, 88);*/
     background: rgb(157, 25, 22);
     margin-bottom: 10px;
     -webkit-transition: all ease .5s;
@@ -78,23 +71,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    /*background: rgb(157, 25, 22);*/
     background-color: rgb(42, 31, 88);
 }
 
 .active {
-    /*text-decoration: underline;*/
     background-color: rgb(42, 31, 88);
-    /*border-radius: 5px;*/
     color: #FFF;
 }
-
-
-/*header nav ul li.active a {
-    background: rgb(157, 25, 22);
-    border-radius: 5px;
-    color: #FFF;
-}*/
 
 
 /* --- Clase que agregaremos cuando el usuario haga scroll --- */
@@ -103,7 +86,6 @@ header nav ul li a:hover {
     position: fixed;
     z-index: 1000;
     top: 0;
-    /*max-width: 1000px;*/
     width: 65%;
     box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
 }
@@ -289,8 +271,6 @@ header nav ul li a:hover {
 .button {
     display: inline-block;
     border-radius: 4px;
-    /*background-color: #f4511e;*/
-    /*background-color: rgb(190, 208, 1);*/
     background: rgb(157, 25, 22);
     border: none;
     color: #FFFFFF;
@@ -344,12 +324,10 @@ header nav ul li a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*color: #fff;*/
     overflow: hidden;
 }
 
 .description {
-    /*width: 30%;*/
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 20px;
@@ -364,7 +342,6 @@ header nav ul li a:hover {
 
 .botondos {
     width: 100%;
-    /*margin-left: %;*/
     margin-top: 18%;
     /*border: 2px red solid;*/
 }
@@ -376,25 +353,20 @@ footer {
     height: 50px;
     overflow: hidden;
     width: 100%;
-    /*background-color: #b40022;*/
-    /*background-color: rgb(190, 208, 1);*/
     background: rgb(157, 25, 22);
 }
 
 .piecondos {
     /*border: 2px red solid;*/
     width: 100%;
-    /*margin-left: 17%;*/
     text-align: center;
     margin-top: 1%;
 }
 
 .dtcdos {
-    /*font-weight: bold;*/
     /*border: 2px red solid;*/
     text-align: center;
     font-size: 18px;
-    /*font-family: 'Roboto Condensed', sans-serif;*/
     font-family: helvetica;
     color: white;
 }
@@ -402,7 +374,6 @@ footer {
 .petruspie {
     font-weight: bold;
     font-size: 18px;
-    /*font-family: 'Roboto Condensed', sans-serif;*/
     font-family: 'Playfair Display', serif;
     color: black;
 }
@@ -413,8 +384,6 @@ footer {
 .ir-arriba {
     display: none;
     padding: 20px;
-    /*background: #024959;*/
-    /*background: rgb(190, 208, 1);*/
     background-color: rgb(42, 31, 88);
     font-size: 20px;
     color: #fff;
@@ -439,7 +408,6 @@ footer {
     width: 21%;
     margin: 0 auto;
     font-size: 55px;
-    /*color: rgb(190, 208, 1);*/
     color: #9D1916;
     font-family: 'Oswald', sans-serif;
 }
@@ -458,7 +426,6 @@ footer {
 .descriptiondos {
     /*border: 2px red solid;*/
     width: 35%;
-    /*background: rgba(0, 0, 0, 0.9);*/
     background-color: rgba(1, 30, 74, 0.8);
     color: #fff;
     padding: 20px;
@@ -473,7 +440,6 @@ footer {
 
 .botonnosotros {
     width: 100%;
-    /*margin-left: %;*/
     margin-top: 22%;
     /*border: 2px red solid;*/
 }
@@ -481,8 +447,6 @@ footer {
 .buttonnosotros {
     display: inline-block;
     border-radius: 4px;
-    /*background-color: #f4511e;*/
-    /*background-color: rgb(190, 208, 1);*/
     background: rgb(157, 25, 22);
     border: none;
     color: #FFFFFF;
@@ -492,10 +456,7 @@ footer {
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    /*margin: 0 auto;*/
-    /*margin-top: 2%;*/
     margin-left: 46%;
-    /*margin-bottom: 2%;*/
 }
 
 .buttonnosotros span {
@@ -578,7 +539,6 @@ footer {
     /*height: 350px;*/
     height: auto;
     overflow: hidden;
-    /*background-color: #404040;*/
     background-color: #abb2b9;
 }
 
@@ -617,7 +577,6 @@ div.subapartado {
 div.titulo {
     width: 600px;
     height: 50px;
-    /*background-color: #24c06f;*/
     background-color: #2A1F58;
     overflow: hidden;
     border-bottom: 1px solid #39f58f;
@@ -757,10 +716,10 @@ div.subapartado:hover div.info {
     overflow: hidden;
 }
 
-.imgplaca {
+.imgconcreto {
     width: 100%;
     height: 150px;
-    background: url(../img/placa_alveolar.jpg) no-repeat center;
+    background: url(../img/concreto-premezclado.jpg) no-repeat center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -827,7 +786,6 @@ div.subapartado:hover div.info {
     width: 50px;
     height: 50px;
     font-size: 40px;
-    /*color: rgb(190, 208, 1);*/
     color: #2A1F58;
     border-radius: 50%;
 }
@@ -854,8 +812,6 @@ textarea {
 }
 
 .enviar {
-    /*background: #31849f;*/
-    /*background-color: rgb(190, 208, 1);*/
     background-color: #2A1F58;
     font-weight: bold;
     font-size: 18px;
@@ -905,7 +861,6 @@ textarea {
     width: 21%;
     margin: 0 auto;
     font-size: 55px;
-    /*color: rgb(190, 208, 1);*/
     color: #9D1916;
     font-family: 'Oswald', sans-serif;
 }

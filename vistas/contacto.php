@@ -5,7 +5,7 @@
     <div class="img-fondo">
       <p class="contacto">Contáctanos</p>
     </div>
-    <!-- <p class="texto_servicio"> Para más información acerca de nuestros servicios, por favor contáctenos usando el siguiente formulario y nosotros nos comunicaremos con usted lo más pronto posible.</p> -->
+
     <div class="cont-general">
       <div class="mapa">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.4054559579818!2d-89.6143180450797!3d21.000215475227645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676b2ee1d8dfb%3A0x2cc0ae4659f0a811!2sCalle+27+128%2C+Col.+Mexico%2C+M%C3%A9xico%2C+97125+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1479313094027"  frameborder="0" style="border:0" allowfullscreen></iframe>
