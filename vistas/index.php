@@ -23,7 +23,7 @@
 			</article>
 		</article>
 
-		<article class="productouno">
+		<article class="productodos">
 			<article class="block">BOVEDILLA</article>
 			<article class="imgbobedilla"></article>
 			<article class="medidas">Medidas</article>
@@ -36,7 +36,7 @@
 			</article>
 		</article>
 
-		<article class="productouno">
+		<article class="productotres">
 			<article class="block">VIGAS PRETENSADAS</article>
 			<article class="imgvigas"></article>
 			<article class="medidas">Medidas</article>

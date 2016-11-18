@@ -149,9 +149,6 @@ header nav ul li a:hover {
     background-color: #515a5a;
     width: 30%;
     height: 350px;
-}
-
-.productouno {
     position: relative;
     transition: transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
@@ -166,6 +163,55 @@ header nav ul li a:hover {
     -o-transform: scale(1, 1) rotate(20deg);
     -ms-transform: scale(1, 1) rotate(20deg);
     -webkit-transform: scale(1, 1) rotate(20deg);
+    background-color: #4d5656;
+}
+
+.productodos {
+    /*border: 2px black solid;*/
+    display: inline-block;
+    margin-left: 2%;
+    background-color: #2c3e50;
+    width: 30%;
+    height: 350px;
+    position: relative;
+    transition: transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    -ms-transition: -ms-transform 0.4s;
+    -o-transition: -o-transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+}
+
+.productodos:hover {
+    transform: scale(1, 1) rotate(20deg);
+    -moz-transform: scale(1, 1) rotate(20deg);
+    -o-transform: scale(1, 1) rotate(20deg);
+    -ms-transform: scale(1, 1) rotate(20deg);
+    -webkit-transform: scale(1, 1) rotate(20deg);
+    background-color: #4d5656;
+}
+
+.productotres {
+    /*border: 2px black solid;*/
+    display: inline-block;
+    margin-left: 2%;
+    background-color: #1b2631;
+    width: 30%;
+    height: 350px;
+    position: relative;
+    transition: transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    -ms-transition: -ms-transform 0.4s;
+    -o-transition: -o-transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+}
+
+.productotres:hover {
+    transform: scale(1, 1) rotate(20deg);
+    -moz-transform: scale(1, 1) rotate(20deg);
+    -o-transform: scale(1, 1) rotate(20deg);
+    -ms-transform: scale(1, 1) rotate(20deg);
+    -webkit-transform: scale(1, 1) rotate(20deg);
+    background-color: #4d5656;
 }
 
 .block {
@@ -373,6 +419,161 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+
+/*-------------------------quienes somos---------------------*/
+
+.contnosotros {
+    /*outline: 2px red solid;*/
+    width: 100%;
+}
+
+.nosotros {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 21%;
+    margin: 0 auto;
+    font-size: 55px;
+    /*color: rgb(190, 208, 1);*/
+    color: #9D1916;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bannerdos {
+    /*outline: 2px red solid;*/
+    width: 100%;
+    height: 380px;
+    background: url(../img/materiales-de-construccion-banner.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.descriptiondos {
+    /*border: 2px red solid;*/
+    width: 35%;
+    /*background: rgba(0, 0, 0, 0.9);*/
+    background-color: rgba(1, 30, 74, 0.8);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 3%;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.botonnosotros {
+    width: 100%;
+    /*margin-left: %;*/
+    margin-top: 22%;
+    /*border: 2px red solid;*/
+}
+
+.buttonnosotros {
+    display: inline-block;
+    border-radius: 4px;
+    /*background-color: #f4511e;*/
+    /*background-color: rgb(190, 208, 1);*/
+    background: rgb(157, 25, 22);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*margin: 0 auto;*/
+    /*margin-top: 2%;*/
+    margin-left: 46%;
+    /*margin-bottom: 2%;*/
+}
+
+.buttonnosotros span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonnosotros span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonnosotros:hover {
+    background-color: #2A1F58;
+    color: white;
+}
+
+.buttonnosotros:hover span {
+    padding-right: 25px;
+}
+
+.buttonnosotros:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.bannertres {
+    /*outline: 2px red solid;*/
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.contenmvv {
+    /*border: 2px red solid;*/
+    text-align: center;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.mi {
+    /*outline: 2px black solid;*/
+    width: 30%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cabeza_mision {
+    width: 100%;
+    color: #9D1916;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 0px 5px 0px;
+}
+
+.texto_mision {
+    width: 100%;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+}
+
+.bannercuatro {
+    outline: 2px red solid;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
 }
 
 
