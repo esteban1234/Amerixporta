@@ -49,7 +49,7 @@
 					OBJETIVO
 				</article>
 				<article class="texto_mision">
-					Buscar la satisfacción entera del cliente  con la variedad y diversificación de productos para la construcción y así mantener el compromiso de ser lideres.
+					Buscar la satisfacción entera del cliente  con la variedad y diversificación de productos para la construcción y así mantener el compromiso con nuestros clientes.
 				</article>
 
 			</article>
@@ -58,7 +58,66 @@
 
 	</article>
 	<article class="bannercuatro">
-		ggg
+	<h1 class="valor">
+		Nuestros valores
+	</h1>
+
+	<div id="body">
+
+		<div class="subapartado">
+
+			<div class="titulo">
+				<p class="titulo">Responsabilidad</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Entrega a tiempo y forma.</p>
+			</div>
+
+		</div>
+
+		<div class="subapartado">
+
+			<div class="titulo">
+				<p class="titulo">Liderazgo</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Los mejores productos a los mejores precios.</p>
+			</div>
+
+		</div>
+
+		<div class="subapartado">
+
+			<div class="titulo">
+				<p class="titulo">Calidad</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Nuestros clientes satisfechos nos respaldan.</p>
+			</div>
+
+		</div>
+
+		<div class="subapartado">
+
+			<div class="titulo">
+				<p class="titulo">Colaboración</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Todos somos AMERIXPORTA</p>
+			</div>
+
+		</div>
+
+	</div>
+
+	</article>
+
+	<article class="boton">
+		 <a href="contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 	</article>
 
 

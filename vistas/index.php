@@ -52,7 +52,7 @@
 	</article>
 
 	<article class="boton">
-		 <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Productos</span></a>
+		 <a href="productos.php" class="button" style="vertical-align:middle" ><span>Productos</span></a>
 	</article>
 
 </article>

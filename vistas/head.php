@@ -14,8 +14,8 @@
                 <!-- <link href="../css/responsivo.css" rel="stylesheet"> -->
                 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
                     <link href="../fonts/style.css" rel="stylesheet">
-                    </link>
                 </link>
+            </link>
             </link>
         </meta>
     </head>
@@ -36,7 +36,7 @@
         <ul class="nav">
           <li><a href="index.php"><span class="icon-home"></span>&nbsp;&nbsp;INICIO</a></li>
           <li><a href="quienessomos.php"><span class="icon-users"></span>&nbsp;&nbsp;QUIENES SOMOS</a></li>
-          <li><a href="#"><span class="icon-suitcase"></span>&nbsp;&nbsp;PRODUCTOS</a></li>
+          <li><a href="productos.php"><span class="icon-suitcase"></span>&nbsp;&nbsp;PRODUCTOS</a></li>
           <li><a href="contacto.php"><span class="icon-old-phone"></span>&nbsp;&nbsp;CONTACTO</a></li>
         </ul>
       </nav>
