@@ -54,40 +54,6 @@
       <div class="ubicanos">
         <a href="#popup" >UBICANOS&nbsp;&nbsp;<span class="icon-location"></span></a>
       </div>
-      <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
-      <form id="form" action="envia.php" method="post">
-        <div class="group-input">
-          <div class="input-group">
-            <span id="msj"></span>
-            <label class="label">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-          </div>
-          <div class="input-group">
-            <span id="msj"></span>
-            <label class="label" >Telefono:</label>
-            <input type="text" id="telefono" name="telefono">
-          </div>
-
-          <div class="input-group">
-            <span id="msj"></span>
-            <label class="label">Correo:</label
-            <input type="text" id="correo" name="correo">
-          </div>
-          <div class="group-comentario">
-            <span id="msj"></span>
-            <label class="label">Correo:</label>
-            <textarea name="comentario" rows="8" cols="40"></textarea>
-          </div>
-        </div>
-        <input type="submit" class="enviar" name="envia" value="Enviar">
-      </form>
-    </div><br><br>
-
-      </article>
-
-    </article>
-
-
         <div id="popup">
             <div class="popup-contenedor">
                <h2>Ubicación</h2>
@@ -95,6 +61,14 @@
                <a class="popup-cerrar" href="#">X</a>
             </div>
         </div>
+
+
+      </article>
+
+    </article>
+
+
+
 
 </article>
 
