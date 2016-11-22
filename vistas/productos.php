@@ -10,9 +10,9 @@
 			En <b>AMERIXPORTA</b> contamos con produtos especializados y de buena calidad.
 		</h3>
 
-		<article class="contenproduc">
+		<article class="contenproducc">
 
-		<article class="productouno">
+		<article class="productounoo">
 			<article class="block">BLOCK</article>
 			<article class="imgblock"></article>
 			<article class="medidas">Medidas</article>
@@ -25,7 +25,7 @@
 			</article>
 		</article>
 
-		<article class="productodos">
+		<article class="productodoss">
 			<article class="block">BOVEDILLA</article>
 			<article class="imgbobedilla"></article>
 			<article class="medidas">Medidas</article>
@@ -38,7 +38,7 @@
 			</article>
 		</article>
 
-		<article class="productotres">
+		<article class="productotress">
 			<article class="block">VIGAS PRETENSADAS</article>
 			<article class="imgvigas"></article>
 			<article class="medidas">Medidas</article>
@@ -53,7 +53,7 @@
 
 	</article>
 
-	<article class="contenproduc">
+	<article class="contenproducc">
 
 		<article class="productocuatro">
 			<article class="block">AGREGADOS</article>

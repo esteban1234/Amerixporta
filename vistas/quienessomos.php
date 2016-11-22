@@ -114,11 +114,13 @@
 
 	</div>
 
-	</article>
-
 	<article class="boton">
 		 <a href="contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 	</article>
+
+	</article>
+
+
 
 
 </article>

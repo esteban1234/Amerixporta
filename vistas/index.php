@@ -5,6 +5,39 @@
 
 </article>
 
+<article class="leyenda">
+	<article class="conleyenda">
+		<h1 class="">
+               Los mejores productos para la construcción, <br>a los mejores precios!!
+            </h1>
+	</article>
+</article>
+
+<article class="contienetodo">
+
+<article class="contenpuntosproduc">
+
+	<article class="puntos">
+		<h1 class="productos">¿Porque comprar con nosotros?</h1>
+		<p class="puntosespecificos"><span class="icon-check"></span>Trabajamos con los mejores proveedores a nivel nacional.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Asesoria técnica al momento de comprar tus productos.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Entrega a cualquier parte del interior del estado.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Entrega las 24 horas del dia.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Las mejores marcas en productos.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Mejor precio del mercado.</p>
+		<p class="puntosespecificos"><span class="icon-check"></span>Mejor servico al cliente.</p>
+
+
+
+		<p class="text_boton">Tu construcción lo necesita!!</p>
+		<article class="boton">
+		 <a href="productos.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
+	</article>
+	</article>
+
+
+
+
 <article class="contindex">
 	<h1 class="productos">Algunos de nuestros productos</h1>
 
@@ -36,7 +69,7 @@
 			</article>
 		</article>
 
-		<article class="productotres">
+	<!-- 	<article class="productotres">
 			<article class="block">VIGAS PRETENSADAS</article>
 			<article class="imgvigas"></article>
 			<article class="medidas">Medidas</article>
@@ -47,7 +80,7 @@
 			*VIGA 20-5 <br>
 			*VIGA 20-6
 			</article>
-		</article>
+		</article> -->
 
 	</article>
 
@@ -56,8 +89,14 @@
 	</article>
 
 </article>
+</article>
+</article>
 
-<article class="contindexdos">
+
+
+
+
+<!-- <article class="contindexdos">
 
 	 <div class="description">
             <h2 class="description_title">
@@ -67,7 +106,7 @@
      <article class="botondos">
 		 <a href="contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 	</article>
-</article>
+</article> -->
 
 
 		<span class="ir-arriba icon-arrow-bold-up"></span>
