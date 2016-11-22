@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+            <link rel="icon" type="image/png" href="../img/favicon.png" />
             <title>
                 AMERIXPORTA | SERVICIOS DE CONSTRUCCIÓN
             </title>

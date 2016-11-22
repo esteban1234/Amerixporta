@@ -46,7 +46,7 @@
         <p class="contacto">Escríbenos</p>
       </div>
       <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
-      <form id="form" action="" method="post">
+      <form id="form" action="envia.php" method="post">
         <div class="group-input">
           <div class="input-group">
             <span id="msj"></span>
@@ -67,10 +67,10 @@
           <div class="group-comentario">
             <span id="msj"></span>
             <label class="label" for="nombre">Correo:</label>
-            <textarea name="name" rows="8" cols="40"></textarea>
+            <textarea name="comentario" rows="8" cols="40"></textarea>
           </div>
         </div>
-        <input type="button" class="enviar" name="name" value="Enviar">
+        <input type="submit" class="enviar" name="name" value="Enviar">
       </form>
     </div><br><br>
 
