@@ -54,7 +54,6 @@
       <div class="ubicanos">
         <a href="#popup" >UBICANOS&nbsp;&nbsp;<span class="icon-location"></span></a>
       </div>
-<<<<<<< HEAD
       <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
       <form id="form" action="envia.php" method="post">
         <div class="group-input">
@@ -83,7 +82,6 @@
         <input type="submit" class="enviar" name="envia" value="Enviar">
       </form>
     </div><br><br>
-=======
 
       </article>
 
@@ -99,7 +97,6 @@
         </div>
 
 </article>
->>>>>>> master
 
   <span class="ir-arriba icon-arrow-bold-up"></span>
 
