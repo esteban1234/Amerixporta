@@ -50,27 +50,27 @@
         <div class="group-input">
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Nombre:</label>
+            <label class="label">Nombre:</label>
             <input type="text" id="nombre" name="nombre">
           </div>
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Telefono:</label>
+            <label class="label" >Telefono:</label>
             <input type="text" id="telefono" name="telefono">
           </div>
 
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Correo:</label>
+            <label class="label">Correo:</label
             <input type="text" id="correo" name="correo">
           </div>
           <div class="group-comentario">
             <span id="msj"></span>
-            <label class="label" for="nombre">Correo:</label>
+            <label class="label">Correo:</label>
             <textarea name="comentario" rows="8" cols="40"></textarea>
           </div>
         </div>
-        <input type="submit" class="enviar" name="name" value="Enviar">
+        <input type="submit" class="enviar" name="envia" value="Enviar">
       </form>
     </div><br><br>
 

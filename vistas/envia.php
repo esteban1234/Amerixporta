@@ -31,7 +31,7 @@ if(!$mail->send())
     // echo "Error al enviar Mensaje: " . $mail->ErrorInfo;
     echo ("<SCRIPT LANGUAGE='JavaScript'>
           window.alert('Error al Enviar MENSAJE')
-          window.location.href='Contacto.php'
+          window.location.href='contacto.php'
         </SCRIPT>");
 
 }
@@ -39,7 +39,7 @@ else
 {
   echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Mensaje Enviado Correctamente')
-        window.location.href='Contacto.php'
+        window.location.href='contacto.php'
       </SCRIPT>");
 
 
