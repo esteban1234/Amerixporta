@@ -10,12 +10,12 @@
     <article class="contenformudatos">
 
       <article class="formulario">
-          <form class='contactoo'>
-            <div><label>Tu Nombre:</label><input type='text' value='' placeholder="Nombre Completo"></div>
-            <div><label>Tu Correo:</label><input type='text' value='' placeholder="ejemplo@hotmail.com"></div>
-            <div><label>Tu Teléfono:</label><input type='text' value=''></div>
-            <div><label>Mensaje:</label><textarea rows='6'></textarea></div>
-            <div><input type='submit' value='Enviar Mensaje'></div>
+        <form action="envia.php" method="post" class='contactoo'>
+          <div><label>Tu Nombre:</label><input type='text' placeholder="Nombre Completo" name="nombre"></div>
+          <div><label>Tu Correo:</label><input type='text' placeholder="ejemplo@hotmail.com" name="correo"></div>
+          <div><label>Tu Teléfono:</label><input type='text' name="telefono"></div>
+          <div><label>Mensaje:</label><textarea rows='6' name="comentario"></textarea></div>
+          <div><input type='submit' value='Enviar Mensaje'></div>
         </form>
       </article>
 

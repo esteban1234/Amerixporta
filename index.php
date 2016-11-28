@@ -1,5 +1,5 @@
 
-<?php include 'head.php';?>
+<?php include 'vistas/headindex.php';?>
 
 <article class="banner">
 
@@ -31,7 +31,7 @@
 
 		<p class="text_boton">Tu construcción lo necesita!!</p>
 		<article class="boton">
-		 <a href="productos.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
+		 <a href="vistas/contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 	</article>
 	</article>
 
@@ -85,7 +85,7 @@
 	</article>
 
 	<article class="boton">
-		 <a href="productos.php" class="button" style="vertical-align:middle" ><span>Productos</span></a>
+		 <a href="vistas/productos.php" class="button" style="vertical-align:middle" ><span>Productos</span></a>
 	</article>
 
 </article>
@@ -111,12 +111,12 @@
 
 		<span class="ir-arriba icon-arrow-bold-up"></span>
 
-	<?php include 'Pie.php';?>
+	<?php include 'vistas/Pie.php';?>
 
-    <script type="text/javascript" src="../js/jquery.js"></script>
-	<script src="../js/main.js"></script>
-	<script type="text/javascript" src="../js/iconoarriba.js"></script>
-	<script src="../js/active.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/iconoarriba.js"></script>
+	<script src="js/active.js"></script>
 
 </body>
 </html>
