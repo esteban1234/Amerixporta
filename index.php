@@ -32,7 +32,7 @@
 		<p class="text_boton">Tu construcción lo necesita!!</p>
 		<article class="boton">
 		 <a href="vistas/contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
-	</article>
+		</article>
 	</article>
 
 
@@ -69,19 +69,6 @@
 			</article>
 		</article>
 
-	<!-- 	<article class="productotres">
-			<article class="block">VIGAS PRETENSADAS</article>
-			<article class="imgvigas"></article>
-			<article class="medidas">Medidas</article>
-			<article class="especificaciones">
-			*VIGA 12-3 <br>
-			*VIGA 12-4 <br>
-			*VIGA 12-5 <br>
-			*VIGA 20-5 <br>
-			*VIGA 20-6
-			</article>
-		</article> -->
-
 	</article>
 
 	<article class="boton">
@@ -91,30 +78,15 @@
 </article>
 </article>
 </article>
-
-
-
-
-
-<!-- <article class="contindexdos">
-
-	 <div class="description">
-            <h2 class="description_title">
-               Los mejores productos para la construcción, <br>a los mejores precios!!
-            </h2>
-     </div>
-     <article class="botondos">
-		 <a href="contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
-	</article>
-</article> -->
-
-
-		<span class="ir-arriba icon-arrow-bold-up"></span>
+<span class="ir-arriba icon-arrow-bold-up"></span>
 
 	<?php include 'vistas/Pie.php';?>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/menuresponsivo.js"></script>
+
 	<script type="text/javascript" src="js/iconoarriba.js"></script>
 	<script src="js/active.js"></script>
 

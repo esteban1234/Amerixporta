@@ -1,22 +1,19 @@
 <?php include 'head.php';?>
 
-
-
 <article class="contnosotros">
 	<h1 class="nosotros">
 		Nosotros
 	</h1>
 
 	<article class="bannerdos">
-	 <article class="descriptiondos">
+	 	<article class="descriptiondos">
             <h2 class="description_title">
                Somos una empresa 100% mexicana, con años de experiencia en la distribución y comercialización de productos para la construcción. <br> <br> Representamos la opción más confiable en cuanto a cobertura y oferta de servicios y productos para la construcción.
-
             </h2>
      </article>
      <article class="botonnosotros">
-		 <a href="contacto.php" class="buttonnosotros" style="vertical-align:middle" ><span>Contáctanos</span></a>
-	</article>
+		 		<a href="contacto.php" class="buttonnosotros" style="vertical-align:middle" ><span>Contáctanos</span></a>
+			</article>
 	</article>
 
 
@@ -137,5 +134,3 @@
 
   </body>
 </html>
-
-
