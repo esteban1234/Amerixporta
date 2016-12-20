@@ -1,0 +1,1349 @@
+@media screen and (max-width: 480px){
+
+  .menuicono
+  {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  #cerrar
+  {
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 15%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
+  }
+
+  .logo
+  {
+    width:100%;
+    display: inline-block;
+  }
+
+  .logofigure
+  {
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
+  }
+
+  .logofigure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor
+  {
+    width: 100%;
+    display: none;
+  }
+
+  header nav ul li{
+    width: 100%;
+    margin: 0px;
+  }
+
+  header nav ul li a {
+    width: 100%;
+  }
+
+  .menu-fixed {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+  }
+
+  .banner
+  {
+     width: 100%;
+     height: 200px;
+     background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+     background-size: cover;
+  }
+
+  .conleyenda
+  {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    /*border: 2px solid red;*/
+  }
+
+  .contenpuntosproduc
+  {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .puntos{
+    width: 100%;
+  }
+
+  .productos
+  {
+    font-size: 20px;
+  }
+
+  .puntosespecificos{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  .text_boton
+  {
+    font-size: 20px;
+    padding-top: 0px;
+  }
+
+  .boton
+  {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .boton a
+  {
+    margin: 0px;
+      margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .contindex
+  {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .productouno, .productodos
+  {
+    height: 100%;
+  }
+
+  .productouno:hover, .productodos:hover
+  {
+
+    transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+  }
+
+  .dtcdos, .petruspie
+  {
+    font-size: 15px;
+  }
+
+  /*********Inicia seccion quienes somos*********/
+  .nosotros
+  {
+    /*border: 2px solid green;*/
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .bannerdos
+  {
+    border: 2px solid red;
+    width: 100%;
+    height: 400px;
+  }
+
+  .descriptiondos
+  {
+    width: 100%;
+    margin: 0px;
+    font-size: 10px;
+    border: 2px solid red;
+    margin-top: 15%;
+    text-align: justify;
+  }
+
+  .botonnosotros
+  {
+    width: 100%;
+    text-align: center;
+    margin-top: 90%;
+  }
+
+  .botonnosotros a
+  {
+    margin: 0px;
+    font-size: 18px;
+  }
+
+  .bannertres
+  {
+    height: 100%;
+    margin-bottom: 10%;
+  }
+  .contenmvv
+  {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+
+  .mi {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+
+  .cabeza_mision
+  {
+    font-size: 18px;
+  }
+
+  .texto_mision{
+    font-size: 15px;
+  }
+
+  .bannercuatro
+  {
+    /*border: 2px solid blue;*/
+  }
+
+  .bannercuatro h1
+  {
+    width: 100%;
+    font-size: 25px;
+  }
+
+
+  div#body
+  {
+    margin: 0px;
+    padding: 0px;
+    width: 100%
+  }
+
+  div.subapartado  {
+    width: 100%;
+  }
+
+  div.info
+  {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+
+  p.info
+  {
+    margin: 5px;
+    text-align: center;
+  }
+
+  /*********Inicia Producto***************/
+  .lema{
+    /*border: 2px solid red;*/
+    font-size: 16px;
+  }
+
+  .contenproducc
+  {
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+  {
+    width: 100%;
+    margin: 0px;
+    margin-top: 10%;
+  }
+
+  .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+  .productocinco:hover, .productoseis:hover{
+    transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+  }
+
+  /************Inicia Contacto***************/
+
+  .contencontac
+  {
+    /*border: 2px solid red;*/
+  }
+
+
+  .img-fondo .contacto
+  {
+    width: 100%;
+    font-size: 30px;
+    /*border: 2px solid green;*/
+  }
+
+  .contenformudatos
+  {
+    /*border: 2px solid red;*/
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .formulario, .datos
+  {
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  .formulario
+  {
+    margin: 0px;
+    margin-bottom: 5%;
+  }
+
+  .datos{
+    /*height: 100px;*/
+  }
+
+  .texto-direccion
+  {
+    border-top: .5px solid rgba(8, 17, 136, 0.74);
+  }
+
+  .texto-direccion .dir-text
+  {
+    /*border: 2px solid red;*/
+    text-align: center;
+  }
+  .ubicanos
+  {
+    /*border: 2px solid green;*/
+    /*margin-top: 0px;*/
+  }
+
+  #popup
+  {
+    margin-top: -400px;
+  }
+
+  #popup .popup-contenedor
+  {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+
+
+  /************Dieeño Menu******************************/
+  .menuicono
+  {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  #cerrar
+  {
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 15%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
+  }
+
+  .logo
+  {
+    width:100%;
+    display: inline-block;
+  }
+
+  .logofigure
+  {
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
+  }
+
+  .logofigure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor
+  {
+    width: 100%;
+    display: none;
+  }
+
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
+
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
+
+    header nav ul li a {
+      width: 100%;
+    }
+
+    /***********Terminia Diseño Menu*******************/
+
+    .banner
+    {
+       width: 100%;
+       height: 200px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
+
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
+
+    .contenpuntosproduc
+    {
+      width: 100%;
+      padding: 15px;
+      /*border: 2px solid green;*/
+    }
+
+    .puntos, .contindex{
+      width: 100%;
+      /*border: 2px solid red;*/
+    }
+
+    .contindex
+    {
+      margin-top: 5%;
+    }
+
+    .listpuntos, .listadicional
+    {
+      /*border: 2px solid red;*/
+    }
+
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
+
+    .puntosespecificos{
+      font-size: 15px;
+      text-align: left;
+      padding-left: 5%;
+    }
+
+    .productos
+    {
+      font-size: 20px;
+      /*border: 2px solid red;*/
+    }
+
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid green;*/
+    }
+    .boton a
+    {
+      /*border: 2px solid red;*/
+      margin: 0px;
+        margin-top: 5%;
+      font-size: 20px;
+    }
+
+    .contenproduc
+    {
+      /*border: 2px solid red;*/
+    }
+
+    .productouno, .productodos
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+    }
+
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+
+    /*********Inicia seccion quienes somos*********/
+    .nosotros
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .bannerdos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      height: 400px;
+    }
+
+    .descriptiondos
+    {
+      width: 100%;
+      margin: 0px;
+      font-size: 10px;
+      /*border: 2px solid red;*/
+      margin-top: 20%;
+      text-align: justify;
+    }
+
+    .botonnosotros
+    {
+      width: 100%;
+      text-align: center;
+      margin-top: 90%;
+    }
+
+    .botonnosotros a
+    {
+      margin: 0px;
+      font-size: 18px;
+    }
+
+    .bannertres
+    {
+      height: 100%;
+      margin-bottom: 10%;
+    }
+    .contenmvv
+    {
+      width: 100%;
+      padding-bottom: 10%;
+    }
+
+    .mi {
+      width: 90%;
+      margin-top: 5%;
+    }
+
+
+    .cabeza_mision
+    {
+      font-size: 18px;
+    }
+
+    .texto_mision{
+      font-size: 15px;
+    }
+
+    .valor
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .boton
+    {
+      margin-bottom: 5%;
+    }
+
+    /*********Inicia Producto***************/
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 16px;
+    }
+
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
+
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+    }
+
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+
+    /************Inicia Contacto***************/
+
+    .contencontac
+    {
+      /*border: 2px solid red;*/
+    }
+
+
+    .img-fondo .contacto
+    {
+      width: 100%;
+      font-size: 30px;
+      /*border: 2px solid green;*/
+    }
+
+    .contenformudatos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .formulario, .datos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
+
+    .formulario
+    {
+      margin: 0px;
+      margin-bottom: 5%;
+    }
+
+    .datos{
+      /*height: 100px;*/
+    }
+
+    .texto-direccion
+    {
+      border-top: .5px solid rgba(8, 17, 136, 0.74);
+    }
+
+    .texto-direccion .dir-text
+    {
+      /*border: 2px solid red;*/
+      text-align: center;
+    }
+    .ubicanos
+    {
+      /*border: 2px solid green;*/
+      /*margin-top: 0px;*/
+    }
+
+    #popup
+    {
+      margin-top: -400px;
+    }
+
+    #popup .popup-contenedor
+    {
+      margin: 0px;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /************Dieeño Menu******************************/
+  .menuicono
+  {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  #cerrar
+  {
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
+  }
+
+  .logo
+  {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .logofigure
+  {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+    /*border: 2px solid red;*/
+  }
+
+  .logofigure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor
+  {
+    width: 100%;
+    display: none;
+  }
+
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
+
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
+
+    header nav ul li a {
+      width: 100%;
+    }
+
+    /***********Terminia Diseño Menu*******************/
+
+    .banner
+    {
+       width: 100%;
+       height: 200px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
+
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
+
+    .contenpuntosproduc
+    {
+      width: 100%;
+      padding: 15px;
+      /*border: 2px solid green;*/
+    }
+
+    .puntos, .contindex{
+      width: 100%;
+      /*border: 2px solid red;*/
+    }
+
+    .contindex
+    {
+      margin-top: 5%;
+    }
+
+    .listpuntos, .listadicional
+    {
+      /*border: 2px solid red;*/
+    }
+
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+      /*border: 2px solid red;*/
+    }
+
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
+
+    .productos
+    {
+      font-size: 25px;
+      /*border: 2px solid red;*/
+    }
+
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid green;*/
+    }
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      font-size: 20px;
+    }
+
+    .contenproduc
+    {
+      /*border: 2px solid red;*/
+    }
+
+    /*.productouno, .productodos
+    {
+      width: 100%;
+    }*/
+
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+
+    /*********Inicia seccion quienes somos*********/
+    .nosotros
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .bannerdos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      height: 600px;
+    }
+
+    .descriptiondos
+    {
+      width: 100%;
+      margin: 0px;
+      font-size: 10px;
+      /*border: 2px solid red;*/
+      margin-top: 35%;
+      text-align: justify;
+    }
+
+    .botonnosotros
+    {
+      width: 100%;
+      text-align: center;
+      margin-top: 90%;
+    }
+
+    .botonnosotros a
+    {
+      margin: 0px;
+      font-size: 18px;
+    }
+
+    .bannertres
+    {
+      height: 100%;
+      margin-bottom: 4%;
+    }
+
+
+    .contenmvv
+    {
+      width: 100%;
+    }
+
+    .mi {
+      width: 90%;
+      margin-top: 5%;
+    }
+
+
+    .cabeza_mision
+    {
+      font-size: 18px;
+    }
+
+    .texto_mision{
+      font-size: 15px;
+    }
+
+    .valor
+    {
+      width: 100%;
+      font-size: 25px;
+    }
+
+    .boton
+    {
+      margin-bottom: 5%;
+    }
+
+    .bannercuatro
+    {
+      margin: 0px;
+    }
+
+    /*********Inicia Producto***************/
+
+    .nosotros
+    {
+      font-size: 40px;
+    }
+
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 20px;
+    }
+
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
+
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+      height: 100%;
+      /*border: 2px solid red;*/
+      padding: 10px;
+    }
+
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+
+    .boton a
+    {
+      font-size: 30px;
+    }
+
+    /**********Inicia Contacto***********/
+    .img-fondo .contacto
+    {
+      width: 100%;
+      font-size: 30px;
+      /*border: 2px solid green;*/
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  .menuicono
+  {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  #cerrar
+  {
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
+  }
+
+  .logo
+  {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .logofigure
+  {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+  }
+
+  .logofigure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor
+  {
+    width: 100%;
+    display: none;
+  }
+
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
+
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
+
+    header nav ul li a {
+      width: 100%;
+    }
+
+    /***********Terminia Diseño Menu*******************/
+
+    .banner
+    {
+       width: 100%;
+       height: 350px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
+
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .contenpuntosproduc
+    {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    .puntos, .contindex{
+      width: 48%;
+      display: inline-block;
+    }
+
+
+    .listpuntos, .listadicional
+    {
+    }
+
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
+
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
+
+    .productos
+    {
+      font-size: 25px;
+    }
+
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      font-size: 35px;
+    }
+
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+
+    .nosotros
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      font-size: 40px;
+    }
+
+    .bannerdos
+    {
+      width: 100%;
+      height: 450px;
+      background: url(../img/materiales-de-construccion-banner.jpg) 100% 100%  no-repeat;
+      background-size: cover;
+    }
+
+    .descriptiondos
+    {
+      /*border: 2px solid red;*/
+      margin: 0px;
+      margin-top: 4%;
+    }
+
+    .botonnosotros
+    {
+      display: none;
+    }
+
+    .bannertres
+    {
+      height: 100%;
+      padding: 10px;
+
+    }
+
+    .mi
+    {
+    }
+
+    .bannercuatro{
+      padding-bottom: 5%;
+    }
+
+    .valor
+    {
+      width: 100%;
+    }
+
+    /*********Inicia Producto***************/
+
+    .nosotros
+    {
+      font-size: 40px;
+    }
+
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 20px;
+    }
+
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
+
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+      height: 100%;
+      /*border: 2px solid red;*/
+      padding: 10px;
+    }
+
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+  .menuicono
+  {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  #cerrar
+  {
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
+  }
+
+  .logo
+  {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .logofigure
+  {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+    /*border: 2px solid red;*/
+  }
+
+  .logofigure img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor
+  {
+    width: 100%;
+    display: none;
+  }
+
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
+
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
+
+    header nav ul li a {
+      width: 100%;
+    }
+
+    /***********Terminia Diseño Menu*******************/
+
+    .banner
+    {
+       width: 100%;
+       height: 350px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
+
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .contenpuntosproduc
+    {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    .puntos, .contindex{
+      width: 48%;
+      display: inline-block;
+    }
+
+
+    .listpuntos, .listadicional
+    {
+    }
+
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
+
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
+
+    .productos
+    {
+      font-size: 25px;
+    }
+
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+    }
+
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      font-size: 25px;
+      margin-bottom: 5%;
+    }
+
+    .bannercuatro{
+      padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
