@@ -1,49 +1,43 @@
 @media screen and (max-width: 480px){
 
-  header
+  .menuicono
   {
-    /*border: 2px solid red;*/
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+    text-align: center;
   }
 
-  .contenedor
+  #cerrar
   {
-    display: none;
-    border: 2px solid green;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 15%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
   }
 
   .logo
   {
     width:100%;
-
-  }
-
-  .menu-icono
-  {
     display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    text-align: center;
-    margin-top: 12%;
-  }
-
-  .menu-icono p
-  {
-    font-size: 20px;
-    margin-bottom: 15%;
-  }
-
-  .menu-icono span
-  {
-    width: 100%;
-    font-size: 35px;
-    text-align: center;
   }
 
   .logofigure
   {
     display: inline-block;
-    /*border: 2px solid red;*/
-    width: 75%;
+    width: 70%;
     margin: 0px;
   }
 
@@ -55,20 +49,7 @@
   .contenedor
   {
     width: 100%;
-  }
-
-  .banner
-  {
-    /*border: 2px solid green;*/
-     height: 380px;
-     width: 100%;
-  }
-
-  .menu-fixed {
-      z-index: 1000;
-      top: 0;
-      width: 100%;
-      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    display: none;
   }
 
   header nav ul li{
@@ -80,6 +61,21 @@
     width: 100%;
   }
 
+  .menu-fixed {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+  }
+
+  .banner
+  {
+     width: 100%;
+     height: 200px;
+     background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+     background-size: cover;
+  }
 
   .conleyenda
   {
@@ -118,13 +114,14 @@
 
   .boton
   {
+    width: 100%;
     text-align: center;
-    margin: 5% 0% 5% 0%;
+    margin: 10px;
   }
-
-  .boton a{
+  .boton a
+  {
     margin: 0px;
-    padding: 5px;
+      margin-top: 5%;
     font-size: 20px;
   }
 
@@ -134,20 +131,14 @@
     margin-top: 5%;
   }
 
-  .contenproduc
+  .productouno, .productodos
   {
+    height: 100%;
   }
 
-  .productouno:hover
+  .productouno:hover, .productodos:hover
   {
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
 
-  .productodos:hover{
     transform: none;
     -moz-transform: none;
     -o-transform: none;
@@ -170,7 +161,9 @@
 
   .bannerdos
   {
-    /*border: 2px solid red;*/
+    border: 2px solid red;
+    width: 100%;
+    height: 400px;
   }
 
   .descriptiondos
@@ -178,6 +171,8 @@
     width: 100%;
     margin: 0px;
     font-size: 10px;
+    border: 2px solid red;
+    margin-top: 15%;
     text-align: justify;
   }
 
@@ -287,102 +282,114 @@
   }
 
   /************Inicia Contacto***************/
-  .contacto
+
+  .contencontac
   {
-    /*border: 2px solid green;*/
+    /*border: 2px solid red;*/
+  }
+
+
+  .img-fondo .contacto
+  {
     width: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 6%;
+    font-size: 30px;
+    /*border: 2px solid green;*/
   }
 
   .contenformudatos
   {
     /*border: 2px solid red;*/
-    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
 
   .formulario, .datos
   {
-    width: 100%;
-    margin: 0px;
-  }
-
-  .datos
-  {
-    /*border: 2px solid green;*/
-    margin-top: 5%;
-    height: 500px;
-    /*height: 500px*/
-  }
-
-  .direccion
-  {
+    /*border: 2px solid red;*/
     width: 100%;
   }
 
-
-
-  .texto-direccion .dir-text
+  .formulario
   {
-    border-top: .5px solid rgb(42, 31, 88);
-    width: 100%;
     margin: 0px;
     margin-bottom: 5%;
   }
 
-  .dir-text div
+  .datos{
+    /*height: 100px;*/
+  }
+
+  .texto-direccion
   {
-    text-align: center;
+    border-top: .5px solid rgba(8, 17, 136, 0.74);
+  }
+
+  .texto-direccion .dir-text
+  {
     /*border: 2px solid red;*/
+    text-align: center;
+  }
+  .ubicanos
+  {
+    /*border: 2px solid green;*/
+    /*margin-top: 0px;*/
+  }
+
+  #popup
+  {
+    margin-top: -400px;
+  }
+
+  #popup .popup-contenedor
+  {
+    margin: 0px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
-  header
+
+
+  /************Dieeño Menu******************************/
+  .menuicono
   {
-    /*border: 2px solid red;*/
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+    text-align: center;
   }
 
-  .contenedor
+  #cerrar
   {
-    display: none;
-    border: 2px solid green;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 15%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
   }
 
   .logo
   {
     width:100%;
-
-  }
-
-  .menu-icono
-  {
     display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    text-align: center;
-    margin-top: 8%;
-  }
-
-  .menu-icono p
-  {
-    font-size: 20px;
-    margin-bottom: 15%;
-  }
-
-  .menu-icono span
-  {
-    width: 100%;
-    font-size: 35px;
-    text-align: center;
   }
 
   .logofigure
   {
     display: inline-block;
-    /*border: 2px solid red;*/
-    width: 75%;
+    width: 70%;
     margin: 0px;
   }
 
@@ -394,337 +401,330 @@
   .contenedor
   {
     width: 100%;
+    display: none;
   }
 
-  .banner
-  {
-    /*border: 2px solid green;*/
-     height: 380px;
-     width: 100%;
-  }
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
 
-  .menu-fixed {
-      z-index: 1000;
-      top: 0;
+    header nav ul li{
       width: 100%;
-      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
-  }
+      margin: 0px;
+    }
 
-  header nav ul li{
-    width: 100%;
-    margin: 0px;
-  }
+    header nav ul li a {
+      width: 100%;
+    }
 
-  header nav ul li a {
-    width: 100%;
-  }
+    /***********Terminia Diseño Menu*******************/
 
+    .banner
+    {
+       width: 100%;
+       height: 200px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
 
-  .conleyenda
-  {
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
 
-  .contenpuntosproduc
-  {
-    width: 100%;
-    padding: 15px;
-  }
+    .contenpuntosproduc
+    {
+      width: 100%;
+      padding: 15px;
+      /*border: 2px solid green;*/
+    }
 
-  .puntos{
-    width: 100%;
-  }
+    .puntos, .contindex{
+      width: 100%;
+      /*border: 2px solid red;*/
+    }
 
-  .productos
-  {
-    font-size: 20px;
-  }
+    .contindex
+    {
+      margin-top: 5%;
+    }
 
-  .puntosespecificos{
-    font-size: 15px;
-    text-align: left;
-    padding-left: 5%;
-  }
+    .listpuntos, .listadicional
+    {
+      /*border: 2px solid red;*/
+    }
 
-  .text_boton
-  {
-    font-size: 20px;
-    padding-top: 0px;
-  }
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
 
-  .boton
-  {
-    text-align: center;
-    margin: 5% 0% 5% 0%;
-  }
+    .puntosespecificos{
+      font-size: 15px;
+      text-align: left;
+      padding-left: 5%;
+    }
 
-  .boton a{
-    margin: 0px;
-    padding: 5px;
-    font-size: 20px;
-  }
+    .productos
+    {
+      font-size: 20px;
+      /*border: 2px solid red;*/
+    }
 
-  .contindex
-  {
-    width: 100%;
-    margin-top: 5%;
-  }
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid green;*/
+    }
+    .boton a
+    {
+      /*border: 2px solid red;*/
+      margin: 0px;
+        margin-top: 5%;
+      font-size: 20px;
+    }
 
-  .contenproduc
-  {
-  }
+    .contenproduc
+    {
+      /*border: 2px solid red;*/
+    }
 
-  .productouno:hover
-  {
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    .productouno, .productodos
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+    }
 
-  .productodos:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 
-  .dtcdos, .petruspie
-  {
-    font-size: 15px;
-  }
+    /*********Inicia seccion quienes somos*********/
+    .nosotros
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+      font-size: 25px;
+    }
 
-  /*********Inicia seccion quienes somos*********/
-  .nosotros
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    font-size: 25px;
-  }
+    .bannerdos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      height: 400px;
+    }
 
-  .bannerdos
-  {
-    /*border: 2px solid red;*/
-    /*width: 80%;*/
-  }
+    .descriptiondos
+    {
+      width: 100%;
+      margin: 0px;
+      font-size: 10px;
+      /*border: 2px solid red;*/
+      margin-top: 20%;
+      text-align: justify;
+    }
 
-  .descriptiondos
-  {
-    width: 80%;
-    margin: 0px;
-    font-size: 10px;
-    text-align: justify;
-  }
+    .botonnosotros
+    {
+      width: 100%;
+      text-align: center;
+      margin-top: 90%;
+    }
 
-  .botonnosotros
-  {
-    width: 100%;
-    text-align: center;
-    margin-top: 90%;
-  }
+    .botonnosotros a
+    {
+      margin: 0px;
+      font-size: 18px;
+    }
 
-  .botonnosotros a
-  {
-    margin: 0px;
-    font-size: 18px;
-  }
+    .bannertres
+    {
+      height: 100%;
+      margin-bottom: 10%;
+    }
+    .contenmvv
+    {
+      width: 100%;
+      padding-bottom: 10%;
+    }
 
-  .bannertres
-  {
-    height: 100%;
-    margin-bottom: 10%;
-  }
-  .contenmvv
-  {
-    width: 100%;
-    padding-bottom: 10%;
-  }
-
-  .mi {
-    width: 90%;
-    margin-top: 5%;
-  }
-
-
-  .cabeza_mision
-  {
-    font-size: 18px;
-  }
-
-  .texto_mision{
-    font-size: 15px;
-  }
-
-  .bannercuatro
-  {
-    /*border: 2px solid blue;*/
-  }
-
-  .bannercuatro h1
-  {
-    width: 100%;
-    font-size: 25px;
-  }
+    .mi {
+      width: 90%;
+      margin-top: 5%;
+    }
 
 
-  div#body
-  {
-    margin: 0px;
-    padding: 0px;
-    width: 100%
-  }
+    .cabeza_mision
+    {
+      font-size: 18px;
+    }
 
-  div.subapartado  {
-    width: 100%;
-  }
+    .texto_mision{
+      font-size: 15px;
+    }
 
-  div.info
-  {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-  }
+    .valor
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      font-size: 25px;
+    }
 
+    .boton
+    {
+      margin-bottom: 5%;
+    }
 
-  p.info
-  {
-    margin: 5px;
-    text-align: center;
-  }
+    /*********Inicia Producto***************/
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 16px;
+    }
 
-  /*********Inicia Producto***************/
-  .lema{
-    /*border: 2px solid red;*/
-    font-size: 16px;
-  }
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
 
-  .contenproducc
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+    }
 
-  .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
-  {
-    width: 100%;
-    margin: 0px;
-    margin-top: 10%;
-  }
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 
-  .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
-  .productocinco:hover, .productoseis:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    /************Inicia Contacto***************/
 
-  /************Inicia Contacto***************/
-  .contacto
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 6%;
-  }
-
-  .contenformudatos
-  {
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
-
-  .formulario, .datos
-  {
-    width: 100%;
-    margin: 0px;
-  }
-
-  .datos
-  {
-    /*border: 2px solid green;*/
-    margin-top: 5%;
-    height: 500px;
-    /*height: 500px*/
-  }
-
-  .direccion
-  {
-    width: 100%;
-  }
+    .contencontac
+    {
+      /*border: 2px solid red;*/
+    }
 
 
+    .img-fondo .contacto
+    {
+      width: 100%;
+      font-size: 30px;
+      /*border: 2px solid green;*/
+    }
 
-  .texto-direccion .dir-text
-  {
-    border-top: .5px solid rgb(42, 31, 88);
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 5%;
-  }
+    .contenformudatos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
 
-  .dir-text div
-  {
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
+    .formulario, .datos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
+
+    .formulario
+    {
+      margin: 0px;
+      margin-bottom: 5%;
+    }
+
+    .datos{
+      /*height: 100px;*/
+    }
+
+    .texto-direccion
+    {
+      border-top: .5px solid rgba(8, 17, 136, 0.74);
+    }
+
+    .texto-direccion .dir-text
+    {
+      /*border: 2px solid red;*/
+      text-align: center;
+    }
+    .ubicanos
+    {
+      /*border: 2px solid green;*/
+      /*margin-top: 0px;*/
+    }
+
+    #popup
+    {
+      margin-top: -400px;
+    }
+
+    #popup .popup-contenedor
+    {
+      margin: 0px;
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-  header
+  /************Dieeño Menu******************************/
+  .menuicono
   {
-    /*border: 2px solid red;*/
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
   }
 
-  .contenedor
+  #cerrar
   {
-    display: none;
-    border: 2px solid green;
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
   }
 
   .logo
   {
     width:100%;
-    text-align: center;
-  }
-
-  .menu-icono
-  {
     display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    text-align: center;
-    margin-top: 5%;
-    /*border: 2px solid red;*/
-  }
-
-  .menu-icono p
-  {
-    font-size: 20px;
-    margin-bottom: 15%;
-  }
-
-  .menu-icono span
-  {
-    width: 100%;
-    font-size: 35px;
     text-align: center;
   }
 
   .logofigure
   {
     display: inline-block;
-    /*border: 2px solid red;*/
-    width: 55%;
+    width: 50%;
     margin: 0px;
+    /*border: 2px solid red;*/
   }
 
   .logofigure img{
@@ -735,335 +735,288 @@
   .contenedor
   {
     width: 100%;
+    display: none;
   }
 
-  .banner
-  {
-    /*border: 2px solid green;*/
-     height: 380px;
-     width: 100%;
-  }
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    }
 
-  .menu-fixed {
-      z-index: 1000;
-      top: 0;
+    header nav ul li{
       width: 100%;
-      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
-  }
+      margin: 0px;
+    }
 
-  header nav ul li{
-    width: 100%;
-    margin: 0px;
-  }
+    header nav ul li a {
+      width: 100%;
+    }
 
-  header nav ul li a {
-    width: 100%;
-  }
+    /***********Terminia Diseño Menu*******************/
 
+    .banner
+    {
+       width: 100%;
+       height: 200px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
 
-  .conleyenda
-  {
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
 
-  .contenpuntosproduc
-  {
-    width: 100%;
-    padding: 15px;
-  }
+    .contenpuntosproduc
+    {
+      width: 100%;
+      padding: 15px;
+      /*border: 2px solid green;*/
+    }
 
-  .puntos{
-    width: 100%;
-  }
+    .puntos, .contindex{
+      width: 100%;
+      /*border: 2px solid red;*/
+    }
 
-  .productos
-  {
-    font-size: 20px;
-  }
+    .contindex
+    {
+      margin-top: 5%;
+    }
 
-  .puntosespecificos{
-    font-size: 15px;
-    text-align: left;
-    padding-left: 5%;
-  }
+    .listpuntos, .listadicional
+    {
+      /*border: 2px solid red;*/
+    }
 
-  .text_boton
-  {
-    font-size: 20px;
-    padding-top: 0px;
-  }
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+      /*border: 2px solid red;*/
+    }
 
-  .boton
-  {
-    text-align: center;
-    margin: 5% 0% 5% 0%;
-  }
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
 
-  .boton a{
-    margin: 0px;
-    padding: 5px;
-    font-size: 20px;
-  }
+    .productos
+    {
+      font-size: 25px;
+      /*border: 2px solid red;*/
+    }
 
-  .contindex
-  {
-    width: 100%;
-    margin-top: 5%;
-  }
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid green;*/
+    }
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      font-size: 20px;
+    }
 
-  .contenproduc
-  {
-  }
+    .contenproduc
+    {
+      /*border: 2px solid red;*/
+    }
 
-  .productouno:hover
-  {
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    /*.productouno, .productodos
+    {
+      width: 100%;
+    }*/
 
-  .productodos:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 
-  .dtcdos, .petruspie
-  {
-    font-size: 15px;
-  }
+    /*********Inicia seccion quienes somos*********/
+    .nosotros
+    {
+      /*border: 2px solid green;*/
+      width: 100%;
+      font-size: 25px;
+    }
 
-  /*********Inicia seccion quienes somos*********/
-  .nosotros
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    font-size: 25px;
-  }
+    .bannerdos
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      height: 600px;
+    }
 
-  .bannerdos
-  {
-    /*border: 2px solid red;*/
-  }
+    .descriptiondos
+    {
+      width: 100%;
+      margin: 0px;
+      font-size: 10px;
+      /*border: 2px solid red;*/
+      margin-top: 35%;
+      text-align: justify;
+    }
 
-  .descriptiondos
-  {
-    width: 100%;
-    margin: 0px;
-    font-size: 10px;
-    text-align: justify;
-  }
+    .botonnosotros
+    {
+      width: 100%;
+      text-align: center;
+      margin-top: 90%;
+    }
 
-  .botonnosotros
-  {
-    width: 100%;
-    text-align: center;
-    margin-top: 90%;
-  }
+    .botonnosotros a
+    {
+      margin: 0px;
+      font-size: 18px;
+    }
 
-  .botonnosotros a
-  {
-    margin: 0px;
-    font-size: 18px;
-  }
-
-  .bannertres
-  {
-    height: 100%;
-    margin-bottom: 10%;
-  }
-  .contenmvv
-  {
-    width: 100%;
-    padding-bottom: 10%;
-  }
-
-  .mi {
-    width: 90%;
-    margin-top: 5%;
-  }
+    .bannertres
+    {
+      height: 100%;
+      margin-bottom: 4%;
+    }
 
 
-  .cabeza_mision
-  {
-    font-size: 18px;
-  }
+    .contenmvv
+    {
+      width: 100%;
+    }
 
-  .texto_mision{
-    font-size: 15px;
-  }
-
-  .bannercuatro
-  {
-    /*border: 2px solid blue;*/
-  }
-
-  .bannercuatro h1
-  {
-    width: 100%;
-    font-size: 25px;
-  }
+    .mi {
+      width: 90%;
+      margin-top: 5%;
+    }
 
 
-  div#body
-  {
-    margin: 0px;
-    padding: 0px;
-    width: 100%
-  }
+    .cabeza_mision
+    {
+      font-size: 18px;
+    }
 
-  div.subapartado  {
-    width: 100%;
-  }
+    .texto_mision{
+      font-size: 15px;
+    }
 
-  div.info
-  {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-  }
+    .valor
+    {
+      width: 100%;
+      font-size: 25px;
+    }
 
+    .boton
+    {
+      margin-bottom: 5%;
+    }
 
-  p.info
-  {
-    margin: 5px;
-    text-align: center;
-  }
+    .bannercuatro
+    {
+      margin: 0px;
+    }
 
-  /*********Inicia Producto***************/
-  .lema{
-    /*border: 2px solid red;*/
-    font-size: 16px;
-  }
+    /*********Inicia Producto***************/
 
-  .contenproducc
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
+    .nosotros
+    {
+      font-size: 40px;
+    }
 
-  .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
-  {
-    width: 100%;
-    margin: 0px;
-    margin-top: 10%;
-  }
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 20px;
+    }
 
-  .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
-  .productocinco:hover, .productoseis:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
 
-  /************Inicia Contacto***************/
-  .contacto
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 6%;
-  }
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+      height: 100%;
+      /*border: 2px solid red;*/
+      padding: 10px;
+    }
 
-  .contenformudatos
-  {
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 
-  .formulario, .datos
-  {
-    width: 100%;
-    margin: 0px;
-  }
+    .boton a
+    {
+      font-size: 30px;
+    }
 
-  .datos
-  {
-    /*border: 2px solid green;*/
-    margin-top: 5%;
-    height: 500px;
-    /*height: 500px*/
-  }
+    /**********Inicia Contacto***********/
+    .img-fondo .contacto
+    {
+      width: 100%;
+      font-size: 30px;
+      /*border: 2px solid green;*/
+    }
 
-  .direccion
-  {
-    width: 100%;
-  }
-
-
-
-  .texto-direccion .dir-text
-  {
-    border-top: .5px solid rgb(42, 31, 88);
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 5%;
-  }
-
-  .dir-text div
-  {
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
-  header
+  .menuicono
   {
-    /*border: 2px solid red;*/
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
   }
 
-  .contenedor
+  #cerrar
   {
-    display: none;
-    border: 2px solid green;
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
   }
 
   .logo
   {
     width:100%;
-    text-align: center;
-  }
-
-  .menu-icono
-  {
     display: inline-block;
-    width: 25%;
-    vertical-align: top;
-    text-align: center;
-    margin-top: 4%;
-    /*border: 2px solid red;*/
-  }
-
-  .menu-icono p
-  {
-    font-size: 25px;
-    margin-bottom: 4%;
-  }
-
-  .menu-icono span
-  {
-    width: 100%;
-    font-size: 35px;
     text-align: center;
   }
 
   .logofigure
   {
     display: inline-block;
-    /*border: 2px solid red;*/
-    width: 45%;
+    width: 50%;
     margin: 0px;
   }
 
@@ -1075,345 +1028,224 @@
   .contenedor
   {
     width: 100%;
+    display: none;
   }
 
-  .banner
-  {
-    /*border: 2px solid green;*/
-     height: 380px;
-     width: 100%;
-  }
-
-  .menu-fixed {
-      z-index: 1000;
-      top: 0;
-      width: 100%;
-      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
-  }
-
-  header nav ul li{
-    width: 100%;
-    margin: 0px;
-  }
-
-  header nav ul li a {
-    width: 100%;
-  }
-
-
-  .conleyenda
-  {
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
-
-  .contenpuntosproduc
-  {
-    width: 100%;
-    padding: 15px;
-    /*border: 2px solid red;*/
-  }
-
-  .puntos{
-    width: 100%;
-  }
-
-  .productos
-  {
-    font-size: 20px;
-  }
-
-  .puntosespecificos{
-    font-size: 15px;
-    text-align: left;
-    padding-left: 5%;
-    /*border: 2px solid red;*/
-  }
-
-  .text_boton
-  {
-    font-size: 20px;
-    padding-top: 0px;
-  }
-
-  .boton
-  {
-    text-align: center;
-    margin: 5% 0% 5% 0%;
-    /*border: 2px solid red;*/
-  }
-
-  .boton a{
-    margin: 0px;
-    padding: 5px;
-    font-size: 35px;
-  }
-
-  .contindex
-  {
-    width: 100%;
-    margin-top: 5%;
-  }
-
-  .contenproduc
-  {
-    /*border: 2px solid red;*/
-  }
-
-    .productouno, .productodos
-    {
-      height: 100%;
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
     }
 
-  .productouno:hover
-  {
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
 
-  .productodos:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    header nav ul li a {
+      width: 100%;
+    }
 
-  .dtcdos, .petruspie
-  {
-    font-size: 15px;
-  }
+    /***********Terminia Diseño Menu*******************/
 
-  /*********Inicia seccion quienes somos*********/
-  .nosotros
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    font-size: 25px;
-  }
+    .banner
+    {
+       width: 100%;
+       height: 350px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
 
-  .bannerdos
-  {
-    /*border: 2px solid red;*/
-  }
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
 
-  .descriptiondos
-  {
-    width: 100%;
-    margin: 0px;
-    font-size: 10px;
-    text-align: justify;
-  }
+    .contenpuntosproduc
+    {
+      width: 100%;
+      margin-bottom: 5%;
+    }
 
-  .botonnosotros
-  {
-    width: 100%;
-    text-align: center;
-    margin-top: 90%;
-  }
-
-  .botonnosotros a
-  {
-    margin: 0px;
-    font-size: 18px;
-  }
-
-  .bannertres
-  {
-    height: 100%;
-    margin-bottom: 10%;
-  }
-  .contenmvv
-  {
-    width: 100%;
-    padding-bottom: 10%;
-  }
-
-  .mi {
-    width: 90%;
-    margin-top: 5%;
-  }
+    .puntos, .contindex{
+      width: 48%;
+      display: inline-block;
+    }
 
 
-  .cabeza_mision
-  {
-    font-size: 18px;
-  }
+    .listpuntos, .listadicional
+    {
+    }
 
-  .texto_mision{
-    font-size: 15px;
-  }
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
 
-  .bannercuatro
-  {
-    /*border: 2px solid blue;*/
-  }
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
 
-  .bannercuatro h1
-  {
-    width: 100%;
-    font-size: 25px;
-  }
+    .productos
+    {
+      font-size: 25px;
+    }
 
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+      /*border: 2px solid red;*/
+    }
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      font-size: 35px;
+    }
 
-  div#body
-  {
-    margin: 0px;
-    padding: 0px;
-    width: 100%
-  }
+    .productouno:hover, .productodos:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 
-  div.subapartado  {
-    width: 100%;
-  }
+    .nosotros
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+      font-size: 40px;
+    }
 
-  div.info
-  {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-  }
+    .bannerdos
+    {
+      width: 100%;
+      height: 450px;
+      background: url(../img/materiales-de-construccion-banner.jpg) 100% 100%  no-repeat;
+      background-size: cover;
+    }
 
+    .descriptiondos
+    {
+      /*border: 2px solid red;*/
+      margin: 0px;
+      margin-top: 4%;
+    }
 
-  p.info
-  {
-    margin: 5px;
-    text-align: center;
-  }
+    .botonnosotros
+    {
+      display: none;
+    }
 
-  /*********Inicia Producto***************/
-  .lema{
-    /*border: 2px solid red;*/
-    font-size: 16px;
-  }
+    .bannertres
+    {
+      height: 100%;
+      padding: 10px;
 
-  .contenproducc
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
+    }
 
-  .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
-  {
-    width: 100%;
-    margin: 0px;
-    margin-top: 10%;
-  }
+    .mi
+    {
+    }
 
-  .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
-  .productocinco:hover, .productoseis:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    .bannercuatro{
+      padding-bottom: 5%;
+    }
 
-  /************Inicia Contacto***************/
-  .contacto
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 6%;
-  }
+    .valor
+    {
+      width: 100%;
+    }
 
-  .contenformudatos
-  {
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
+    /*********Inicia Producto***************/
 
-  .formulario, .datos
-  {
-    width: 100%;
-    margin: 0px;
-  }
+    .nosotros
+    {
+      font-size: 40px;
+    }
 
-  .datos
-  {
-    /*border: 2px solid green;*/
-    margin-top: 5%;
-    height: 500px;
-    /*height: 500px*/
-  }
+    .lema{
+      /*border: 2px solid red;*/
+      font-size: 20px;
+    }
 
-  .direccion
-  {
-    width: 100%;
-  }
+    .contenproducc
+    {
+      /*border: 2px solid red;*/
+      width: 100%;
+    }
 
+    .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
+    {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10%;
+      height: 100%;
+      /*border: 2px solid red;*/
+      padding: 10px;
+    }
 
-
-  .texto-direccion .dir-text
-  {
-    border-top: .5px solid rgb(42, 31, 88);
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 5%;
-  }
-
-  .dir-text div
-  {
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
+    .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
+    .productocinco:hover, .productoseis:hover{
+      transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      -webkit-transform: none;
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
-  header
+  .menuicono
   {
-    /*border: 2px solid red;*/
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    text-align: center;
   }
 
-  .contenedor
+  #cerrar
   {
-    display: none;
-    border: 2px solid green;
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    margin-top: 5%;
+  }
+
+  #cerrar p, #cerrar span{
+    width: 100%;
+  }
+
+  #alternar
+  {
+    font-size: 30px;
+    display: block;
   }
 
   .logo
   {
     width:100%;
-    text-align: center;
-  }
-
-  .menu-icono
-  {
     display: inline-block;
-    width: 25%;
-    vertical-align: top;
-    text-align: center;
-    margin-top: 4%;
-    /*border: 2px solid red;*/
-  }
-
-  .menu-icono p
-  {
-    font-size: 25px;
-    margin-bottom: 4%;
-  }
-
-  .menu-icono span
-  {
-    width: 100%;
-    font-size: 35px;
     text-align: center;
   }
 
   .logofigure
   {
     display: inline-block;
-    /*border: 2px solid red;*/
-    width: 45%;
+    width: 50%;
     margin: 0px;
+    /*border: 2px solid red;*/
   }
 
   .logofigure img{
@@ -1424,305 +1256,94 @@
   .contenedor
   {
     width: 100%;
+    display: none;
   }
 
-  .banner
-  {
-    /*border: 2px solid green;*/
-     height: 380px;
-     width: 100%;
-  }
-
-  .menu-fixed {
-      z-index: 1000;
-      top: 0;
-      width: 100%;
-      box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
-  }
-
-  header nav ul li{
-    width: 100%;
-    margin: 0px;
-  }
-
-  header nav ul li a {
-    width: 100%;
-  }
-
-
-  .conleyenda
-  {
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
-
-  .contenpuntosproduc
-  {
-    width: 100%;
-    padding: 15px;
-    /*border: 2px solid red;*/
-  }
-
-  .puntos{
-    width: 100%;
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
-
-  .productos
-  {
-    font-size: 20px;
-  }
-
-  .puntosespecificos{
-    font-size: 15px;
-    text-align: left;
-    /*padding-left: 5%;*/
-    margin: 0px;
-    padding: 0px;
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
-
-  .text_boton
-  {
-    font-size: 20px;
-    margin-top: : -100px;
-    /*border: 2px solid red;*/
-  }
-
-  .boton
-  {
-    text-align: center;
-    margin: 5% 0% 5% 0%;
-  }
-
-  .boton a{
-    margin: 0px;
-    padding: 5px;
-    font-size: 35px;
-  }
-
-  .contindex
-  {
-    width: 100%;
-  }
-
-  .contenproduc
-  {
-    display: inline-block;
-    text-align: center;
-  }
-
-    .productouno, .productodos
-    {
-      display: inline-block;
-      height: 100%;
-      width: 45%;
+    .menu-fixed {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
     }
 
-  .productouno:hover
-  {
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    header nav ul li{
+      width: 100%;
+      margin: 0px;
+    }
 
-  .productodos:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
+    header nav ul li a {
+      width: 100%;
+    }
 
-  .dtcdos, .petruspie
-  {
-    font-size: 15px;
-  }
+    /***********Terminia Diseño Menu*******************/
 
-  /*********Inicia seccion quienes somos*********/
-  .nosotros
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    font-size: 25px;
-  }
+    .banner
+    {
+       width: 100%;
+       height: 350px;
+       background: url(../img/materiales.jpg) 100% 100%  no-repeat;
+       background-size: cover;
+    }
 
-  .bannerdos
-  {
-    /*border: 2px solid red;*/
-  }
+    .conleyenda
+    {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
 
-  .descriptiondos
-  {
-    width: 100%;
-    margin: 0px;
-    font-size: 10px;
-    text-align: justify;
-    /*border: 2px solid red;*/
-  }
+    .contenpuntosproduc
+    {
+      width: 100%;
+      margin-bottom: 5%;
+    }
 
-  .botonnosotros
-  {
-    width: 100%;
-    text-align: center;
-    margin-top: 90%;
-  }
-
-  .botonnosotros a
-  {
-    margin: 0px;
-    font-size: 18px;
-  }
-
-  .bannertres
-  {
-    height: 100%;
-    margin-bottom: 10%;
-  }
-  .contenmvv
-  {
-    width: 100%;
-    padding-bottom: 10%;
-  }
-
-  .mi {
-    width: 90%;
-    margin-top: 5%;
-  }
+    .puntos, .contindex{
+      width: 48%;
+      display: inline-block;
+    }
 
 
-  .cabeza_mision
-  {
-    font-size: 18px;
-  }
+    .listpuntos, .listadicional
+    {
+    }
 
-  .texto_mision{
-    font-size: 15px;
-  }
+    .listadicional .text_boton
+    {
+      margin-top: 10%;
+    }
 
-  .bannercuatro
-  {
-    /*border: 2px solid blue;*/
-  }
+    .puntosespecificos{
+      font-size: 18px;
+      text-align: left;
+      padding-left: 5%;
+    }
 
-  .bannercuatro h1
-  {
-    width: 100%;
-    font-size: 25px;
-  }
+    .productos
+    {
+      font-size: 25px;
+    }
 
+    .boton
+    {
+      width: 100%;
+      text-align: center;
+    }
 
-  div#body
-  {
-    margin: 0px;
-    padding: 0px;
-    width: 100%
-  }
+    .boton a
+    {
+      margin: 0px;
+      margin-top: 5%;
+      font-size: 25px;
+      margin-bottom: 5%;
+    }
 
-  div.subapartado  {
-    width: 100%;
-  }
-
-  div.info
-  {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-  }
-
-
-  p.info
-  {
-    margin: 5px;
-    text-align: center;
-  }
-
-  /*********Inicia Producto***************/
-  .lema{
-    /*border: 2px solid red;*/
-    font-size: 16px;
-  }
-
-  .contenproducc
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
-
-  .productounoo, .productodoss, .productotress, .productocuatro,.productocinco, .productoseis
-  {
-    width: 100%;
-    margin: 0px;
-    margin-top: 10%;
-  }
-
-  .productounoo:hover, .productodoss:hover, .productotress:hover, .productocuatro:hover,
-  .productocinco:hover, .productoseis:hover{
-    transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    -webkit-transform: none;
-  }
-
-  /************Inicia Contacto***************/
-  .contacto
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 6%;
-  }
-
-  .contenformudatos
-  {
-    /*border: 2px solid red;*/
-    height: 100%;
-  }
-
-  .formulario, .datos
-  {
-    width: 100%;
-    margin: 0px;
-  }
-
-  .datos
-  {
-    /*border: 2px solid green;*/
-    margin-top: 5%;
-    height: 500px;
-    /*height: 500px*/
-  }
-
-  .direccion
-  {
-    width: 100%;
-  }
-
-
-
-  .texto-direccion .dir-text
-  {
-    border-top: .5px solid rgb(42, 31, 88);
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 5%;
-  }
-
-  .dir-text div
-  {
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
+    .bannercuatro{
+      padding-bottom: 5%;
+    }
 }
+
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
 @media screen and (min-width: 1367px) { }

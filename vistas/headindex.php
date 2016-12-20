@@ -22,11 +22,20 @@
      <figure class="logofigure">
        <img src="img/AMERIXPORTA.png"   width="350" height="200" alt="">
      </figure>
-     <div id="alternar" class="menu-icono"><p>Menu</p><span class="icon-menu icono-menu"></span></div>
+     <div class="menuicono">
+       <div id="cerrar">
+         <span>X</span>
+         <p>Cerrar</p>
+       </div>
+       <div id="alternar">
+         <p>Menu</p><span class="icon-menu icono-menu"></span>
+       </div>
+     </div>
    </div>
 
 
     <div class="contenedor">
+
       <nav class="menu" >
         <ul class="nav">
           <li><a href="index.php"><span class="icon-home"></span>&nbsp;&nbsp;INICIO</a></li>

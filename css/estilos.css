@@ -77,10 +77,12 @@ header nav ul li a:hover {
     color: #FFF;
 }
 
-.menu-icono
+
+#cerrar,   #alternar
 {
-  display: none; 
+  display: none;
 }
+
 
 /* --- Clase que agregaremos cuando el usuario haga scroll --- */
 

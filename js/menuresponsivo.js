@@ -1,13 +1,13 @@
-var isVisible = false;
-$(document).ready(function() {
-    $("#alternar").click(function() {
-        if(isVisible){
-            $("#contenedor").slideDown("slow");
-            isVisible = false;
-        } else {
-            $("#contenedor").slideUp("slow");
-            isVisible = true;
-        // alert("Hola como estas");
-        }
-    });
+var visible = false;
+$(document).ready(function(){
+  $("#cerrar").click(function(){
+    $(".contenedor").hide();
+    $("#alternar").show(500);
+    $("#cerrar").hide();
+  });
+  $("#alternar").click(function(){
+    $(".contenedor").show(500);
+    $("#alternar").hide();
+    $("#cerrar").show(500);
+  });
 });
