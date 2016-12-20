@@ -19,20 +19,21 @@
 
 	<article class="puntos">
 		<h1 class="productos">¿Porque comprar con nosotros?</h1>
-		<p class="puntosespecificos"><span class="icon-check"></span>Trabajamos con los mejores proveedores a nivel nacional.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Asesoria técnica al momento de comprar tus productos.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Entrega a cualquier parte del interior del estado.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Entrega las 24 horas del dia.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Las mejores marcas en productos.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Mejor precio del mercado.</p>
-		<p class="puntosespecificos"><span class="icon-check"></span>Mejor servico al cliente.</p>
-
-
-
-		<p class="text_boton">Tu construcción lo necesita!!</p>
-		<article class="boton">
-		 <a href="vistas/contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
-		</article>
+		<div class="listpuntos">
+			<p class="puntosespecificos"><span class="icon-check"></span>Trabajamos con los mejores proveedores a nivel nacional.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Asesoria técnica al momento de comprar tus productos.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Entrega a cualquier parte del interior del estado.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Entrega las 24 horas del dia.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Las mejores marcas en productos.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Mejor precio del mercado.</p>
+			<p class="puntosespecificos"><span class="icon-check"></span>Mejor servico al cliente.</p>
+		</div>
+		<div class="listadicional">
+			<p class="text_boton">Tu construcción lo necesita!!</p>
+			<article class="boton">
+			 <a href="vistas/contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
+			</article>
+		</div>
 	</article>
 
 
