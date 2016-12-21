@@ -64,7 +64,6 @@
         width: 100%;
         font-size: 15px;
         text-align: center;
-        /*border: 2px solid red;*/
     }
     .contenpuntosproduc {
         width: 100%;
@@ -117,12 +116,10 @@
     }
     /*********Inicia seccion quienes somos*********/
     .nosotros {
-        /*border: 2px solid green;*/
         width: 100%;
         font-size: 25px;
     }
     .bannerdos {
-        /*border: 2px solid red;*/
         width: 100%;
         height: 400px;
     }
@@ -130,7 +127,6 @@
         width: 100%;
         margin: 0px;
         font-size: 10px;
-        /*border: 2px solid red;*/
         margin-top: 15%;
         text-align: justify;
     }
@@ -188,11 +184,9 @@
     }
     /*********Inicia Producto***************/
     .lema {
-        /*border: 2px solid red;*/
         font-size: 16px;
     }
     .contenproducc {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .productounoo,
@@ -224,17 +218,14 @@
     .img-fondo .contacto {
         width: 100%;
         font-size: 30px;
-        /*border: 2px solid green;*/
     }
     .contenformudatos {
-        /*border: 2px solid red;*/
         width: 100%;
         margin: 0px;
         padding: 0px;
     }
     .formulario,
     .datos {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .formulario {
@@ -248,7 +239,6 @@
         border-top: .5px solid rgba(8, 17, 136, 0.74);
     }
     .texto-direccion .dir-text {
-        /*border: 2px solid red;*/
         text-align: center;
     }
     .ubicanos {
@@ -330,17 +320,14 @@
         width: 100%;
         font-size: 15px;
         text-align: center;
-        /*border: 2px solid red;*/
     }
     .contenpuntosproduc {
         width: 100%;
         padding: 15px;
-        /*border: 2px solid green;*/
     }
     .puntos,
     .contindex {
         width: 100%;
-        /*border: 2px solid red;*/
     }
     .contindex {
         margin-top: 5%;
@@ -359,15 +346,12 @@
     }
     .productos {
         font-size: 20px;
-        /*border: 2px solid red;*/
     }
     .boton {
         width: 100%;
         text-align: center;
-        /*border: 2px solid green;*/
     }
     .boton a {
-        /*border: 2px solid red;*/
         margin: 0px;
         margin-top: 5%;
         font-size: 20px;
@@ -377,7 +361,6 @@
     }
     .productouno,
     .productodos {
-        /*border: 2px solid green;*/
         width: 100%;
     }
     .productouno:hover,
@@ -390,12 +373,10 @@
     }
     /*********Inicia seccion quienes somos*********/
     .nosotros {
-        /*border: 2px solid green;*/
         width: 100%;
         font-size: 25px;
     }
     .bannerdos {
-        /*border: 2px solid red;*/
         width: 100%;
         height: 400px;
     }
@@ -403,7 +384,6 @@
         width: 100%;
         margin: 0px;
         font-size: 10px;
-        /*border: 2px solid red;*/
         margin-top: 20%;
         text-align: justify;
     }
@@ -435,7 +415,6 @@
         font-size: 15px;
     }
     .valor {
-        /*border: 2px solid red;*/
         width: 100%;
         font-size: 25px;
     }
@@ -444,11 +423,9 @@
     }
     /*********Inicia Producto***************/
     .lema {
-        /*border: 2px solid red;*/
         font-size: 16px;
     }
     .contenproducc {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .productounoo,
@@ -474,23 +451,18 @@
         -webkit-transform: none;
     }
     /************Inicia Contacto***************/
-    .contencontac {
-        /*border: 2px solid red;*/
-    }
+    .contencontac {}
     .img-fondo .contacto {
         width: 100%;
         font-size: 30px;
-        /*border: 2px solid green;*/
     }
     .contenformudatos {
-        /*border: 2px solid red;*/
         width: 100%;
         margin: 0px;
         padding: 0px;
     }
     .formulario,
     .datos {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .formulario {
@@ -504,7 +476,6 @@
         border-top: .5px solid rgba(8, 17, 136, 0.74);
     }
     .texto-direccion .dir-text {
-        /*border: 2px solid red;*/
         text-align: center;
     }
     .ubicanos {
@@ -553,7 +524,6 @@
         display: inline-block;
         width: 50%;
         margin: 0px;
-        /*border: 2px solid red;*/
     }
     .logofigure img {
         width: 100%;
@@ -588,17 +558,14 @@
         width: 100%;
         font-size: 15px;
         text-align: center;
-        /*border: 2px solid red;*/
     }
     .contenpuntosproduc {
         width: 100%;
         padding: 15px;
-        /*border: 2px solid green;*/
     }
     .puntos,
     .contindex {
         width: 100%;
-        /*border: 2px solid red;*/
     }
     .contindex {
         margin-top: 5%;
@@ -609,7 +576,6 @@
     }
     .listadicional .text_boton {
         margin-top: 10%;
-        /*border: 2px solid red;*/
     }
     .puntosespecificos {
         font-size: 18px;
@@ -618,12 +584,10 @@
     }
     .productos {
         font-size: 25px;
-        /*border: 2px solid red;*/
     }
     .boton {
         width: 100%;
         text-align: center;
-        /*border: 2px solid green;*/
     }
     .boton a {
         margin: 0px;
@@ -633,10 +597,6 @@
     .contenproduc {
         /*border: 2px solid red;*/
     }
-    /*.productouno, .productodos
-    {
-      width: 100%;
-    }*/
     .productouno:hover,
     .productodos:hover {
         transform: none;
@@ -647,12 +607,10 @@
     }
     /*********Inicia seccion quienes somos*********/
     .nosotros {
-        /*border: 2px solid green;*/
         width: 100%;
         font-size: 25px;
     }
     .bannerdos {
-        /*border: 2px solid red;*/
         width: 100%;
         height: 600px;
     }
@@ -660,7 +618,6 @@
         width: 100%;
         margin: 0px;
         font-size: 10px;
-        /*border: 2px solid red;*/
         margin-top: 35%;
         text-align: justify;
     }
@@ -705,11 +662,9 @@
         font-size: 40px;
     }
     .lema {
-        /*border: 2px solid red;*/
         font-size: 20px;
     }
     .contenproducc {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .productounoo,
@@ -722,7 +677,6 @@
         margin: 0px;
         margin-top: 10%;
         height: 100%;
-        /*border: 2px solid red;*/
         padding: 10px;
     }
     .productounoo:hover,
@@ -744,7 +698,6 @@
     .img-fondo .contacto {
         width: 100%;
         font-size: 30px;
-        /*border: 2px solid green;*/
     }
 }
 
@@ -840,7 +793,6 @@
     .boton {
         width: 100%;
         text-align: center;
-        /*border: 2px solid red;*/
     }
     .boton a {
         margin: 0px;
@@ -857,7 +809,6 @@
         -webkit-transform: none;
     }
     .nosotros {
-        /*border: 2px solid red;*/
         width: 100%;
         font-size: 40px;
     }
@@ -868,7 +819,6 @@
         background-size: cover;
     }
     .descriptiondos {
-        /*border: 2px solid red;*/
         margin: 0px;
         margin-top: 4%;
     }
@@ -891,11 +841,9 @@
         font-size: 40px;
     }
     .lema {
-        /*border: 2px solid red;*/
         font-size: 20px;
     }
     .contenproducc {
-        /*border: 2px solid red;*/
         width: 100%;
     }
     .productounoo,
@@ -908,7 +856,6 @@
         margin: 0px;
         margin-top: 10%;
         height: 100%;
-        /*border: 2px solid red;*/
         padding: 10px;
     }
     .productounoo:hover,
@@ -958,7 +905,6 @@
         display: inline-block;
         width: 50%;
         margin: 0px;
-        /*border: 2px solid red;*/
     }
     .logofigure img {
         width: 100%;

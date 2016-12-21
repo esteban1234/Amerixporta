@@ -8,7 +8,6 @@
 
 header {
     width: 100%;
-    /*border: 2px red solid;*/
     overflow: hidden;
     background-color: rgb(242, 239, 230);
     -webkit-box-shadow: inset 0px 0px 20px 0px rgba(157, 24, 22, 1);
@@ -17,14 +16,12 @@ header {
 }
 
 .logo {
-    /*outline: 2px red solid;*/
     width: 65%;
     overflow: hidden;
     margin: auto;
 }
 
 .logofigure {
-    /*outline: 2px green solid;*/
     width: 20%;
     height: 150px;
     margin-left: 26%;
@@ -32,7 +29,6 @@ header {
 }
 
 .contenedor {
-    /*outline: 2px green solid;*/
     width: 65%;
     border-top: 5px solid #2A1F58;
     margin: auto;
@@ -77,10 +73,9 @@ header nav ul li a:hover {
     color: #FFF;
 }
 
-
-#cerrar,   #alternar
-{
-  display: none;
+#cerrar,
+#alternar {
+    display: none;
 }
 
 
@@ -108,10 +103,8 @@ header nav ul li a:hover {
 }
 
 .leyenda {
-    /*outline: 2px red solid;*/
     width: 100%;
     margin: 0 auto;
-    /*margin-top: 2%;*/
     padding: 25px 0px;
     background-color: rgb(157, 25, 22);
 }
@@ -131,11 +124,9 @@ header nav ul li a:hover {
 .contienetodo {
     width: 100%;
     margin-top: 2%;
-    /*outline: 2px black solid;*/
 }
 
 .contenpuntosproduc {
-    /*outline: 2px yellow solid;*/
     width: 68%;
     margin: 0 auto;
 }
@@ -147,7 +138,6 @@ header nav ul li a:hover {
 }
 
 .puntos {
-    /*outline: 2px red solid;*/
     width: 50%;
 }
 
@@ -257,8 +247,6 @@ header nav ul li a:hover {
     font-size: 22px;
 }
 .medidas {
-    /*border: 2px red solid;*/
-
     text-align: center;
     color: #fff;
     font-weight: bold;
@@ -266,8 +254,6 @@ header nav ul li a:hover {
     font-size: 22px;
 }
 .especificaciones {
-    /*border: 2px red solid;*/
-
     width: 90%;
     margin-left: 2%;
     margin-top: 2%;
@@ -307,7 +293,6 @@ header nav ul li a:hover {
 /*-------------boton servicios----------*/
 .boton {
     width: 100%;
-    /*border: 2px red solid;*/
 }
 .button {
     display: inline-block;
@@ -321,8 +306,6 @@ header nav ul li a:hover {
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    /*margin: 0 auto;*/
-
     margin-top: 2%;
     margin-left: 27%;
     margin-bottom: 2%;
@@ -361,15 +344,11 @@ footer {
     background: rgb(157, 25, 22);
 }
 .piecondos {
-    /*border: 2px red solid;*/
-
     width: 100%;
     text-align: center;
     margin-top: 1%;
 }
 .dtcdos {
-    /*border: 2px red solid;*/
-
     text-align: center;
     font-size: 18px;
     font-family: helvetica;
@@ -397,8 +376,6 @@ footer {
 
 /*-------------------------quienes somos---------------------*/
 .contnosotros {
-    /*outline: 2px red solid;*/
-
     width: 100%;
 }
 .nosotros {
@@ -412,8 +389,6 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 .bannerdos {
-    /*outline: 2px red solid;*/
-
     width: 100%;
     height: 380px;
     background: url(../img/materiales-de-construccion-banner.jpg) no-repeat center;
@@ -423,8 +398,6 @@ footer {
     overflow: hidden;
 }
 .descriptiondos {
-    /*border: 2px red solid;*/
-
     width: 35%;
     background-color: rgba(1, 30, 74, 0.8);
     color: #fff;
@@ -440,7 +413,6 @@ footer {
 .botonnosotros {
     width: 100%;
     margin-top: 22%;
-    /*border: 2px red solid;*/
 }
 .buttonnosotros {
     display: inline-block;
@@ -482,23 +454,17 @@ footer {
     right: 0;
 }
 .bannertres {
-    /*outline: 2px red solid;*/
-
     width: 100%;
     height: 250px;
     overflow: hidden;
 }
 .contenmvv {
-    /*border: 2px red solid;*/
-
     text-align: center;
     width: 78%;
     margin: 0 auto;
     margin-top: 3%;
 }
 .mi {
-    /*outline: 2px black solid;*/
-
     width: 30%;
     margin-left: 2%;
     display: inline-block;
@@ -524,11 +490,7 @@ footer {
     padding: 5px 15px 5px 15px;
 }
 .bannercuatro {
-    /*outline: 2px red solid;*/
-
     width: 100%;
-    /*height: 350px;*/
-
     height: auto;
     overflow: hidden;
     background-color: #abb2b9;
@@ -536,8 +498,6 @@ footer {
 
 /*------------------valores acordeon-----------------*/
 .valor {
-    /*outline: 2px black solid;*/
-
     background: #fff;
     text-align: center;
     padding: 10px;
@@ -548,8 +508,6 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 div#body {
-    /*border: 2px red solid;*/
-
     margin: 40px auto;
     width: 600px;
     min-height: 50px;
@@ -587,7 +545,6 @@ p.info {
     text-align: center;
     color: #4f4f4f;
     font-size: 17px;
-    /*outline: 2px red solid;*/
 }
 div.subapartado:hover div.info {
     height: 50px;
@@ -595,13 +552,9 @@ div.subapartado:hover div.info {
 
 /*---------------------productos---------------*/
 .sectionproductos {
-    /*outline: 2px red solid;*/
-
     width: 100%;
 }
 .lema {
-    /*outline: 2px red solid;*/
-
     text-align: center;
     background: #fff;
     padding: 10px;
@@ -614,25 +567,15 @@ div.subapartado:hover div.info {
 
 /*---------------------*******-------------------*/
 .contenproducc {
-    /*border: 2px red solid;*/
-
     width: 70%;
     margin: 0 auto;
     margin-top: 2%;
 }
 .productounoo {
-    /*border: 2px black solid;*/
-    /*display: inline-block;*/
-    /*vertical-align: top;*/
-    /*margin-left: 2%;*/
-
     vertical-align: top;
     display: inline-block;
     margin-left: 2%;
     width: 30%;
-    /*margin: 0 auto;*/
-    /*margin-top: 2%;*/
-
     background-color: #515a5a;
     height: 350px;
     position: relative;
@@ -651,17 +594,10 @@ div.subapartado:hover div.info {
     background-color: #4d5656;
 }
 .productodoss {
-    /*border: 2px black solid;*/
-    /*vertical-align: top;*/
-    /*display: inline-block;*/
-    /*margin-left: 2%;*/
-
     vertical-align: top;
     display: inline-block;
     margin-left: 2%;
     width: 30%;
-    /*margin: 0 auto;*/
-
     background-color: #2c3e50;
     height: 350px;
     position: relative;
@@ -680,18 +616,11 @@ div.subapartado:hover div.info {
     background-color: #4d5656;
 }
 .productotress {
-    /*border: 2px black solid;*/
-    /*display: inline-block;*/
-    /*vertical-align: top;*/
-    /*margin-left: 2%;*/
-
     vertical-align: top;
     display: inline-block;
     margin-left: 2%;
     width: 30%;
     background-color: #1b2631;
-    /*margin: 0 auto;*/
-
     height: 350px;
     position: relative;
     transition: transform 0.4s;
@@ -709,8 +638,6 @@ div.subapartado:hover div.info {
     background-color: #4d5656;
 }
 .block {
-    /*border: 2px red solid;*/
-
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -747,8 +674,6 @@ div.subapartado:hover div.info {
     overflow: hidden;
 }
 .productocuatro {
-    /*border: 2px black solid;*/
-
     display: inline-block;
     vertical-align: top;
     margin-left: 2%;
@@ -771,8 +696,6 @@ div.subapartado:hover div.info {
     background-color: #4d5656;
 }
 .productocinco {
-    /*border: 2px black solid;*/
-
     display: inline-block;
     vertical-align: top;
     margin-left: 2%;
@@ -795,8 +718,6 @@ div.subapartado:hover div.info {
     background-color: #4d5656;
 }
 .productoseis {
-    /*border: 2px black solid;*/
-
     display: inline-block;
     vertical-align: top;
     margin-left: 2%;
@@ -850,22 +771,12 @@ div.subapartado:hover div.info {
 
 /**************Inicia Contacto*********************/
 .contencontac {
-    /*border: 2px red solid;*/
-
     width: 100%;
-    /*margin-bottom: 5%;*/
 }
 .img-fondo {
     width: 100%;
-    /* background-image: url(../img/linea.png);
-background-position: 0 50%;
-background-size: 100% 1px;
-background-repeat: no-repeat
-;*/
 }
 .contacto {
-    /*outline: 2px black solid;*/
-
     background: #fff;
     text-align: center;
     padding: 10px;
@@ -876,8 +787,6 @@ background-repeat: no-repeat
     font-family: 'Oswald', sans-serif;
 }
 .contenformudatos {
-    /*outline: 2px red solid;*/
-
     width: 100%;
     margin-top: 5%;
 }
@@ -887,8 +796,6 @@ background-repeat: no-repeat
     vertical-align: top;
 }
 .formulario {
-    /*outline: 2px green solid;*/
-
     width: 40%;
     margin-left: 10%;
 }
@@ -897,8 +804,6 @@ background-repeat: no-repeat
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 15px 15px 20px;
-    /*margin-top: 50px;*/
-
     background-color: white;
     box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
@@ -908,15 +813,11 @@ background-repeat: no-repeat
 }
 .contactoo div {
     margin-bottom: 15px;
-    /*outline: 2px red solid;*/
-
     width: 100%;
 }
 .contactoo input[type='text'],
 .contactoo textarea {
     padding: 7px 6px;
-    /*width: 294px;*/
-
     width: 100%;
     border: 1px solid #CED5D7;
     resize: none;
@@ -936,42 +837,22 @@ background-repeat: no-repeat
     font-weight: bold;
     color: #fff;
     cursor: pointer;
-    /*text-shadow: 1px 1px 0px white;*/
-    /*background: #e4f1f6;*/
-
     background: rgb(157, 25, 22);
-    /* background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
-background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%)
-;*/
 }
 .contactoo input[type='submit']:hover {
     background: rgb(42, 31, 88);
-    /* background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
-    background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);*/
 }
 .contactoo input[type='submit']:active {
     background: rgb(42, 31, 88);
-    /* background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
-background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%)
-;*/
 }
 .datos {
-    /*outline: 2px yellow solid;*/
-    /*overflow: hidden;*/
-    /*margin-left: 5%;*/
-
     width: 40%;
 }
 .direccion {
-    /*outline: 2px red solid;*/
-
     width: 100%;
     text-align: center;
-    /*margin: 15px;*/
 }
 .texto-direccion .dir-text {
-    /*outline: 2px red solid;*/
-
     text-align: center;
     display: inline-block;
     width: 85%;
@@ -984,10 +865,7 @@ background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%)
     color: #2A1F58;
 }
 .ubicanos {
-    /*outline: 2px red solid;*/
-
     margin-top: 15%;
-    /*margin-left: 15%;*/
     width: 100%;
     text-align: center;
 }

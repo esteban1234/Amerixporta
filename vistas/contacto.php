@@ -22,31 +22,27 @@
       <article class="datos">
       <div class="direccion">
           <div class="texto-direccion">
-            <!-- <span class="icon-location"></span> -->
             <div class="dir-text">
               <div>DIRECCIÓN</div>
               <p>Calle 27 Num. 128 entre 26 Y 28, Col. México, Mérida,Yucatan.</p>
             </div>
           </div>
           <div class="texto-direccion">
-            <!-- <span class="icon-phone"></span> -->
             <div class="dir-text">
               <div>TELEFONO</div>
               <p>Pendiente </p>
             </div>
           </div>
           <div class="texto-direccion">
-            <!-- <span class="icon-clock"></span> -->
             <div class="dir-text">
               <div>HORARIO</div>
               <p>Lunes a Viernes de 9am a 6pm </p>
             </div>
           </div>
           <div class="texto-direccion">
-            <!-- <span class="icon-mail"></span> -->
             <div class="dir-text">
               <div>CORREO</div>
-              <p>pendiente</p>
+              <p>info@amerixporta.com.mx</p>
             </div>
           </div>
       </div>
