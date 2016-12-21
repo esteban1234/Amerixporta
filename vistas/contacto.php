@@ -11,10 +11,10 @@
 
       <article class="formulario">
         <form action="envia.php" method="post" class='contactoo'>
-          <div><label>Tu Nombre:</label><input type='text' placeholder="Nombre Completo" name="nombre"></div>
-          <div><label>Tu Correo:</label><input type='text' placeholder="ejemplo@hotmail.com" name="correo"></div>
-          <div><label>Tu Teléfono:</label><input type='text' name="telefono"></div>
-          <div><label>Mensaje:</label><textarea rows='6' name="comentario"></textarea></div>
+          <div><label>Tu Nombre:</label><input type='text' placeholder="Nombre Completo" name="nombre" required/></div>
+          <div><label>Tu Correo:</label><input type='text' placeholder="ejemplo@hotmail.com" name="correo" required/></div>
+          <div><label>Tu Teléfono:</label><input type='text' name="telefono" required/></div>
+          <div><label>Mensaje:</label><textarea rows='6' name="comentario" required/></textarea></div>
           <div><input type='submit' value='Enviar Mensaje'></div>
         </form>
       </article>
