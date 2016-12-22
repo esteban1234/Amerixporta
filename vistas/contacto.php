@@ -42,7 +42,7 @@
           <div class="texto-direccion">
             <div class="dir-text">
               <div>CORREO</div>
-              <p>info@amerixporta.com.mx</p>
+              <p>info@amerixporta.com</p>
             </div>
           </div>
       </div>

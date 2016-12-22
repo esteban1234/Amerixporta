@@ -17,7 +17,7 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@amerixporta.com.mx");
+$mail->addAddress("info@amerixporta.com");
 
 $mail->isHTML(true);
 
